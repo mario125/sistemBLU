@@ -1,0 +1,49 @@
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\bin\Debug\INTERFAS.exe.config
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\bin\Debug\INTERFAS.exe
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\bin\Debug\INTERFAS.pdb
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\bin\Debug\IronPdf.dll
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\bin\Debug\MaterialSkin.dll
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\bin\Debug\Npgsql.dll
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.Form1.resources
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.Properties.Resources.resources
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csproj.GenerateResource.cache
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csproj.CoreCompileInputs.cache
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csproj.CopyComplete
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.exe
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.pdb
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.Form2.resources
+C:\Users\mario\Documents\visual studio 2010\Projects\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csprojAssemblyReference.cache
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\INTERFAS.exe.config
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\INTERFAS.exe
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\INTERFAS.pdb
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\IronPdf.dll
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\MaterialSkin.dll
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\Npgsql.dll
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.class_color.resources
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.Dialog_Error.resources
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.Form1.resources
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.Form2.resources
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.Properties.Resources.resources
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csproj.GenerateResource.cache
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csproj.CoreCompileInputs.cache
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csproj.CopyComplete
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.exe
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.pdb
+C:\Users\desarrollo\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csprojAssemblyReference.cache
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\INTERFAS.exe.config
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\INTERFAS.exe
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\INTERFAS.pdb
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\IronPdf.dll
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\MaterialSkin.dll
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\bin\Debug\Npgsql.dll
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csprojAssemblyReference.cache
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.Dialog_Error.resources
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.PANEL.resources
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.LOGIN.resources
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.Properties.Resources.resources
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csproj.GenerateResource.cache
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csproj.CoreCompileInputs.cache
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.csproj.CopyComplete
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.exe
+C:\Users\mario\Downloads\SYSTEM_BLU\INTERFAS\obj\x86\Debug\INTERFAS.pdb
