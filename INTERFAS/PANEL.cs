@@ -21,7 +21,7 @@ namespace INTERFAS
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             LOGIN l = new LOGIN();
             l.Color_form(2);
-            materialRaisedButton1.Visible = false;
+            //materialRaisedButton1.Visible = false;
 
         }
 
@@ -43,6 +43,22 @@ namespace INTERFAS
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
             //tabPage6.ScrollControlIntoView ;
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialRaisedButton1_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+
+            }catch(Exception )
+            {
+
+            }
         }
     }
 }

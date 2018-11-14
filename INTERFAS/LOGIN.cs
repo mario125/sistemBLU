@@ -40,7 +40,7 @@ namespace INTERFAS
                     materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo500, Primary.Indigo700, Primary.Indigo100, Accent.Pink200, TextShade.WHITE);
                     break;
                 case 2:
-                    materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue500, Primary.Blue500, Primary.Amber400 , Accent.Pink200, TextShade.WHITE);
+                    materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue700, Primary.Blue900, Primary.Amber400 , Accent.Pink200, TextShade.WHITE);
                                         //materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.Green200, Accent.Red100, TextShade.WHITE);
                     break;
             }

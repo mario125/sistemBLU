@@ -322,7 +322,7 @@ namespace FlatUI
         }
 
         private Color _BaseColor = Helpers.FlatColor;
-        private Color _TextColor = Color.FromArgb(243, 243, 243);
+        private Color _TextColor = Color.FromArgb(33, 150, 243);//_________________________________color de texto
 
         public FlatButton()
         {
@@ -2714,8 +2714,8 @@ namespace FlatUI
             set { _ActiveColor = value; }
         }
 
-        private Color BGColor = Color.FromArgb(247, 247, 247);
-        private Color _BaseColor = Color.FromArgb(247, 247, 247);
+        private Color BGColor = Color.FromArgb(247, 247, 247);//color de 
+        private Color _BaseColor = Color.FromArgb(54, 57, 64); // amarilolo
         private Color _ActiveColor = Helpers.FlatColor;
 
         public FlatTabControl()
@@ -2776,12 +2776,12 @@ namespace FlatUI
                                 //-- Image
                                 _with13.DrawImage(ImageList.Images[TabPages[i].ImageIndex], new Point(BaseSize.Location.X + 8, BaseSize.Location.Y + 6));
                                 //-- Text
-                                _with13.DrawString("      " + TabPages[i].Text, Font, Brushes.White, BaseSize, Helpers.CenterSF);
+                                _with13.DrawString("      " + TabPages[i].Text, Font, Brushes.Red , BaseSize, Helpers.CenterSF);
                             }
                             else
                             {
                                 //-- Text
-                                _with13.DrawString(TabPages[i].Text, Font, Brushes.White, BaseSize, Helpers.CenterSF);
+                                _with13.DrawString(TabPages[i].Text, Font, Brushes.Red, BaseSize, Helpers.CenterSF);
                             }
                         }
                         catch (Exception ex)
