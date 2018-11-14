@@ -21,6 +21,7 @@ namespace INTERFAS
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             LOGIN l = new LOGIN();
             l.Color_form(2);
+            materialRaisedButton1.Visible = false;
 
         }
 
@@ -37,6 +38,11 @@ namespace INTERFAS
         {
             Dialog_Error E = new Dialog_Error();
             E.ShowDialog();
+        }
+
+        private void materialRaisedButton1_Click(object sender, EventArgs e)
+        {
+            //tabPage6.ScrollControlIntoView ;
         }
     }
 }

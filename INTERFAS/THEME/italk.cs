@@ -4022,7 +4022,7 @@ class iTalk_TabControl : TabControl
 
         foreach (TabPage Page in this.TabPages)
         {
-            Page.BackColor = Color.FromArgb(128, 128, 128);
+            Page.BackColor = Color.FromArgb(33, 150, 243);
         }
     }
 
@@ -4054,7 +4054,7 @@ class iTalk_TabControl : TabControl
             }
             finally
             {
-                e.Control.BackColor = Color.FromArgb(128, 128, 128);
+                e.Control.BackColor = Color.FromArgb(33, 150, 243);
             }
         }
     }

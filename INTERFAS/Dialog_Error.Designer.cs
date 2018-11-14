@@ -78,6 +78,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(426, 213);
             this.Controls.Add(this.panel1);
+            this.ForeColor = System.Drawing.Color.Cornsilk;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

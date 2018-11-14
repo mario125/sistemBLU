@@ -845,15 +845,15 @@ namespace FlatUI
             set { _White = value; }
         }
 
-        private Color _Red = Color.FromArgb(220, 85, 96);
-        private Color _Cyan = Color.FromArgb(10, 154, 157);
-        private Color _Blue = Color.FromArgb(0, 128, 255);
+        private Color _Red = Color.FromArgb(220, 85, 96);// ROJO
+        private Color _Cyan = Color.FromArgb(10, 154, 157);//VERDE ESMERALDA
+        private Color _Blue = Color.FromArgb(0, 128, 255);// AZUL
         private Color _LimeGreen = Color.FromArgb(35, 36, 38);
         private Color _Orange = Color.FromArgb(253, 181, 63);
         private Color _Purple = Color.FromArgb(155, 88, 181);
-        private Color _Black = Color.FromArgb(128, 128, 128);
-        private Color _Gray = Color.FromArgb(63, 70, 73);
-        private Color _White = Color.FromArgb(243, 243, 243);
+        private Color _Black = Color.FromArgb(33, 150, 243);//PLOMO
+        private Color _Gray = Color.FromArgb(63, 70, 73);//PLOMO OSCURO
+        private Color _White = Color.FromArgb(243, 243, 243);//BLANCO
 
         public FlatColorPalette()
         {
@@ -2689,7 +2689,7 @@ namespace FlatUI
 }
 namespace FlatUI
 {
-    public class FlatTabControl : TabControl
+        public class FlatTabControl : TabControl
     {
         private int W;
         private int H;
@@ -2714,15 +2714,15 @@ namespace FlatUI
             set { _ActiveColor = value; }
         }
 
-        private Color BGColor = Color.FromArgb(128, 128, 128);
-        private Color _BaseColor = Color.FromArgb(128, 128, 128);
+        private Color BGColor = Color.FromArgb(247, 247, 247);
+        private Color _BaseColor = Color.FromArgb(247, 247, 247);
         private Color _ActiveColor = Helpers.FlatColor;
 
         public FlatTabControl()
         {
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.ResizeRedraw | ControlStyles.OptimizedDoubleBuffer, true);
             DoubleBuffered = true;
-            BackColor = Color.FromArgb(128, 128, 128);
+            BackColor = Color.FromArgb(247, 247, 247);
 
             Font = new Font("Segoe UI", 10);
             SizeMode = TabSizeMode.Fixed;
@@ -3084,7 +3084,7 @@ namespace FlatUI
             Invalidate();
         }
 
-        private Color _BaseColor = Color.FromArgb(128, 128, 128);
+        private Color _BaseColor = Color.FromArgb(33, 150, 243); // color base CELESTE
         private Color _TextColor = Color.FromArgb(192, 192, 192);
         private Color _BorderColor = Helpers.FlatColor;
 

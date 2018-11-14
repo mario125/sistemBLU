@@ -29,25 +29,27 @@ namespace INTERFAS
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PANEL));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.iTalk_TabControl1 = new iTalk_TabControl();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.flatTabControl1 = new FlatUI.FlatTabControl();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.iTalk_Button_22 = new iTalk_Button_2();
-            this.iTalk_Button_11 = new iTalk_Button_1();
-            this.iTalk_Button_21 = new iTalk_Button_2();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.iTalk_TabControl1 = new iTalk_TabControl();
+            this.EMPRESA = new System.Windows.Forms.TabPage();
+            this.flatTabControl1 = new FlatUI.FlatTabControl();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.materialSingleLineTextField2 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialSingleLineTextField4 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialSingleLineTextField3 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.panel1.SuspendLayout();
-            this.iTalk_TabControl1.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.flatTabControl1.SuspendLayout();
-            this.tabPage6.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.iTalk_TabControl1.SuspendLayout();
+            this.EMPRESA.SuspendLayout();
+            this.flatTabControl1.SuspendLayout();
+            this.tabPage5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -59,130 +61,8 @@ namespace INTERFAS
             this.panel1.Controls.Add(this.iTalk_TabControl1);
             this.panel1.Location = new System.Drawing.Point(-1, 61);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1113, 416);
+            this.panel1.Size = new System.Drawing.Size(1113, 610);
             this.panel1.TabIndex = 2;
-            // 
-            // iTalk_TabControl1
-            // 
-            this.iTalk_TabControl1.Alignment = System.Windows.Forms.TabAlignment.Left;
-            this.iTalk_TabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.iTalk_TabControl1.Controls.Add(this.tabPage3);
-            this.iTalk_TabControl1.Controls.Add(this.tabPage4);
-            this.iTalk_TabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
-            this.iTalk_TabControl1.ItemSize = new System.Drawing.Size(44, 135);
-            this.iTalk_TabControl1.Location = new System.Drawing.Point(2, 2);
-            this.iTalk_TabControl1.Multiline = true;
-            this.iTalk_TabControl1.Name = "iTalk_TabControl1";
-            this.iTalk_TabControl1.SelectedIndex = 0;
-            this.iTalk_TabControl1.Size = new System.Drawing.Size(1108, 413);
-            this.iTalk_TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.iTalk_TabControl1.TabIndex = 0;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.tabPage3.Controls.Add(this.flatTabControl1);
-            this.tabPage3.Location = new System.Drawing.Point(139, 4);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(965, 405);
-            this.tabPage3.TabIndex = 0;
-            this.tabPage3.Text = "tabPage3";
-            // 
-            // flatTabControl1
-            // 
-            this.flatTabControl1.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
-            this.flatTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.flatTabControl1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.flatTabControl1.Controls.Add(this.tabPage5);
-            this.flatTabControl1.Controls.Add(this.tabPage6);
-            this.flatTabControl1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.flatTabControl1.ItemSize = new System.Drawing.Size(120, 40);
-            this.flatTabControl1.Location = new System.Drawing.Point(0, 0);
-            this.flatTabControl1.Name = "flatTabControl1";
-            this.flatTabControl1.SelectedIndex = 0;
-            this.flatTabControl1.Size = new System.Drawing.Size(965, 399);
-            this.flatTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.flatTabControl1.TabIndex = 0;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.tabPage5.Location = new System.Drawing.Point(4, 44);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(957, 351);
-            this.tabPage5.TabIndex = 0;
-            this.tabPage5.Text = "tabPage5";
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.tabPage6.Controls.Add(this.iTalk_Button_22);
-            this.tabPage6.Controls.Add(this.iTalk_Button_11);
-            this.tabPage6.Controls.Add(this.iTalk_Button_21);
-            this.tabPage6.Location = new System.Drawing.Point(4, 44);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(957, 351);
-            this.tabPage6.TabIndex = 1;
-            this.tabPage6.Text = "tabPage6";
-            // 
-            // iTalk_Button_22
-            // 
-            this.iTalk_Button_22.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_Button_22.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.iTalk_Button_22.ForeColor = System.Drawing.Color.White;
-            this.iTalk_Button_22.Image = null;
-            this.iTalk_Button_22.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iTalk_Button_22.Location = new System.Drawing.Point(537, 77);
-            this.iTalk_Button_22.Name = "iTalk_Button_22";
-            this.iTalk_Button_22.Size = new System.Drawing.Size(166, 40);
-            this.iTalk_Button_22.TabIndex = 2;
-            this.iTalk_Button_22.Text = "iTalk_Button_22";
-            this.iTalk_Button_22.TextAlignment = System.Drawing.StringAlignment.Center;
-            // 
-            // iTalk_Button_11
-            // 
-            this.iTalk_Button_11.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_Button_11.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.iTalk_Button_11.Image = null;
-            this.iTalk_Button_11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iTalk_Button_11.Location = new System.Drawing.Point(298, 77);
-            this.iTalk_Button_11.Name = "iTalk_Button_11";
-            this.iTalk_Button_11.Size = new System.Drawing.Size(166, 40);
-            this.iTalk_Button_11.TabIndex = 1;
-            this.iTalk_Button_11.Text = "iTalk_Button_11";
-            this.iTalk_Button_11.TextAlignment = System.Drawing.StringAlignment.Center;
-            // 
-            // iTalk_Button_21
-            // 
-            this.iTalk_Button_21.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_Button_21.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.iTalk_Button_21.ForeColor = System.Drawing.Color.White;
-            this.iTalk_Button_21.Image = null;
-            this.iTalk_Button_21.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iTalk_Button_21.Location = new System.Drawing.Point(72, 77);
-            this.iTalk_Button_21.Name = "iTalk_Button_21";
-            this.iTalk_Button_21.Size = new System.Drawing.Size(166, 40);
-            this.iTalk_Button_21.TabIndex = 0;
-            this.iTalk_Button_21.Text = "iTalk_Button_21";
-            this.iTalk_Button_21.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.iTalk_Button_21.Click += new System.EventHandler(this.iTalk_Button_21_Click);
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.tabPage4.Location = new System.Drawing.Point(139, 4);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(965, 405);
-            this.tabPage4.TabIndex = 1;
-            this.tabPage4.Text = "tabPage4";
             // 
             // tabPage1
             // 
@@ -224,11 +104,168 @@ namespace INTERFAS
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             // 
+            // iTalk_TabControl1
+            // 
+            this.iTalk_TabControl1.Alignment = System.Windows.Forms.TabAlignment.Left;
+            this.iTalk_TabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.iTalk_TabControl1.Controls.Add(this.EMPRESA);
+            this.iTalk_TabControl1.Controls.Add(this.tabPage4);
+            this.iTalk_TabControl1.DrawMode = System.Windows.Forms.TabDrawMode.OwnerDrawFixed;
+            this.iTalk_TabControl1.ItemSize = new System.Drawing.Size(44, 135);
+            this.iTalk_TabControl1.Location = new System.Drawing.Point(2, 2);
+            this.iTalk_TabControl1.Multiline = true;
+            this.iTalk_TabControl1.Name = "iTalk_TabControl1";
+            this.iTalk_TabControl1.SelectedIndex = 0;
+            this.iTalk_TabControl1.Size = new System.Drawing.Size(1108, 607);
+            this.iTalk_TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.iTalk_TabControl1.TabIndex = 0;
+            // 
+            // EMPRESA
+            // 
+            this.EMPRESA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
+            this.EMPRESA.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EMPRESA.BackgroundImage")));
+            this.EMPRESA.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.EMPRESA.Controls.Add(this.flatTabControl1);
+            this.EMPRESA.Location = new System.Drawing.Point(139, 4);
+            this.EMPRESA.Name = "EMPRESA";
+            this.EMPRESA.Padding = new System.Windows.Forms.Padding(3);
+            this.EMPRESA.Size = new System.Drawing.Size(965, 599);
+            this.EMPRESA.TabIndex = 0;
+            this.EMPRESA.Text = "EMPRESA";
+            // 
+            // flatTabControl1
+            // 
+            this.flatTabControl1.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.flatTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flatTabControl1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.flatTabControl1.Controls.Add(this.tabPage5);
+            this.flatTabControl1.Controls.Add(this.tabPage6);
+            this.flatTabControl1.Font = new System.Drawing.Font("Segoe UI Symbol", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flatTabControl1.ItemSize = new System.Drawing.Size(120, 40);
+            this.flatTabControl1.Location = new System.Drawing.Point(0, 0);
+            this.flatTabControl1.Name = "flatTabControl1";
+            this.flatTabControl1.SelectedIndex = 0;
+            this.flatTabControl1.Size = new System.Drawing.Size(969, 601);
+            this.flatTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.flatTabControl1.TabIndex = 0;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
+            this.tabPage5.Controls.Add(this.materialSingleLineTextField2);
+            this.tabPage5.Controls.Add(this.materialSingleLineTextField4);
+            this.tabPage5.Controls.Add(this.materialSingleLineTextField3);
+            this.tabPage5.Controls.Add(this.materialRaisedButton1);
+            this.tabPage5.Location = new System.Drawing.Point(4, 44);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(961, 553);
+            this.tabPage5.TabIndex = 0;
+            this.tabPage5.Text = "REGISTRAR";
+            // 
+            // materialSingleLineTextField2
+            // 
+            this.materialSingleLineTextField2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialSingleLineTextField2.Depth = 0;
+            this.materialSingleLineTextField2.Hint = "USUARIO";
+            this.materialSingleLineTextField2.Location = new System.Drawing.Point(16, 24);
+            this.materialSingleLineTextField2.MaxLength = 32767;
+            this.materialSingleLineTextField2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField2.Name = "materialSingleLineTextField2";
+            this.materialSingleLineTextField2.PasswordChar = '\0';
+            this.materialSingleLineTextField2.SelectedText = "";
+            this.materialSingleLineTextField2.SelectionLength = 0;
+            this.materialSingleLineTextField2.SelectionStart = 0;
+            this.materialSingleLineTextField2.Size = new System.Drawing.Size(268, 23);
+            this.materialSingleLineTextField2.TabIndex = 9;
+            this.materialSingleLineTextField2.TabStop = false;
+            this.materialSingleLineTextField2.UseSystemPasswordChar = false;
+            // 
+            // materialSingleLineTextField4
+            // 
+            this.materialSingleLineTextField4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialSingleLineTextField4.Depth = 0;
+            this.materialSingleLineTextField4.Hint = "USUARIO";
+            this.materialSingleLineTextField4.Location = new System.Drawing.Point(16, 120);
+            this.materialSingleLineTextField4.MaxLength = 32767;
+            this.materialSingleLineTextField4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField4.Name = "materialSingleLineTextField4";
+            this.materialSingleLineTextField4.PasswordChar = '\0';
+            this.materialSingleLineTextField4.SelectedText = "";
+            this.materialSingleLineTextField4.SelectionLength = 0;
+            this.materialSingleLineTextField4.SelectionStart = 0;
+            this.materialSingleLineTextField4.Size = new System.Drawing.Size(268, 23);
+            this.materialSingleLineTextField4.TabIndex = 8;
+            this.materialSingleLineTextField4.TabStop = false;
+            this.materialSingleLineTextField4.UseSystemPasswordChar = false;
+            // 
+            // materialSingleLineTextField3
+            // 
+            this.materialSingleLineTextField3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialSingleLineTextField3.Depth = 0;
+            this.materialSingleLineTextField3.Hint = "USUARIO";
+            this.materialSingleLineTextField3.Location = new System.Drawing.Point(16, 72);
+            this.materialSingleLineTextField3.MaxLength = 32767;
+            this.materialSingleLineTextField3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField3.Name = "materialSingleLineTextField3";
+            this.materialSingleLineTextField3.PasswordChar = '\0';
+            this.materialSingleLineTextField3.SelectedText = "";
+            this.materialSingleLineTextField3.SelectionLength = 0;
+            this.materialSingleLineTextField3.SelectionStart = 0;
+            this.materialSingleLineTextField3.Size = new System.Drawing.Size(268, 23);
+            this.materialSingleLineTextField3.TabIndex = 7;
+            this.materialSingleLineTextField3.TabStop = false;
+            this.materialSingleLineTextField3.UseSystemPasswordChar = false;
+            // 
+            // materialRaisedButton1
+            // 
+            this.materialRaisedButton1.AutoSize = true;
+            this.materialRaisedButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialRaisedButton1.Depth = 0;
+            this.materialRaisedButton1.Icon = null;
+            this.materialRaisedButton1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialRaisedButton1.Location = new System.Drawing.Point(6, 508);
+            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton1.Name = "materialRaisedButton1";
+            this.materialRaisedButton1.Primary = true;
+            this.materialRaisedButton1.Size = new System.Drawing.Size(171, 36);
+            this.materialRaisedButton1.TabIndex = 5;
+            this.materialRaisedButton1.Text = "INGRESAR  AL SISTEMA";
+            this.materialRaisedButton1.UseVisualStyleBackColor = true;
+            this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click);
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
+            this.tabPage6.Location = new System.Drawing.Point(4, 44);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(961, 553);
+            this.tabPage6.TabIndex = 1;
+            this.tabPage6.Text = "tabPage6";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(150)))), ((int)(((byte)(243)))));
+            this.tabPage4.Location = new System.Drawing.Point(139, 4);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(965, 599);
+            this.tabPage4.TabIndex = 1;
+            this.tabPage4.Text = "tabPage4";
+            // 
             // PANEL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1109, 473);
+            this.ClientSize = new System.Drawing.Size(1109, 667);
             this.Controls.Add(this.panel1);
             this.Name = "PANEL";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -236,11 +273,12 @@ namespace INTERFAS
             this.TransparencyKey = System.Drawing.Color.Fuchsia;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
-            this.iTalk_TabControl1.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.flatTabControl1.ResumeLayout(false);
-            this.tabPage6.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.iTalk_TabControl1.ResumeLayout(false);
+            this.EMPRESA.ResumeLayout(false);
+            this.flatTabControl1.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -253,14 +291,15 @@ namespace INTERFAS
         private System.Windows.Forms.TabPage tabPage2;
         private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField1;
         private iTalk_TabControl iTalk_TabControl1;
-        private System.Windows.Forms.TabPage tabPage3;
         private FlatUI.FlatTabControl flatTabControl1;
         private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.TabPage tabPage6;
         private System.Windows.Forms.TabPage tabPage4;
-        private iTalk_Button_2 iTalk_Button_22;
-        private iTalk_Button_1 iTalk_Button_11;
-        private iTalk_Button_2 iTalk_Button_21;
+        private System.Windows.Forms.TabPage tabPage6;
+        public System.Windows.Forms.TabPage EMPRESA;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
+        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField4;
+        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField3;
+        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField2;
     }
 }
 

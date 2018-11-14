@@ -34,13 +34,13 @@ namespace INTERFAS
             {
                 case 0:
                     // materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
-                    materialSkinManager.ColorScheme = new ColorScheme(Primary.Amber700, Primary.Amber900, Primary.Cyan200, Accent.Cyan700, TextShade.WHITE);
+                    materialSkinManager.ColorScheme = new ColorScheme(Primary.Amber700, Primary.Amber900, Primary.Yellow200, Accent.Yellow700 , TextShade.BLACK);
                     break;
                 case 1:
                     materialSkinManager.ColorScheme = new ColorScheme(Primary.Indigo500, Primary.Indigo700, Primary.Indigo100, Accent.Pink200, TextShade.WHITE);
                     break;
                 case 2:
-                    materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue800, Primary.Indigo100, Accent.Pink200, TextShade.WHITE);
+                    materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue500, Primary.Blue500, Primary.Amber400 , Accent.Pink200, TextShade.WHITE);
                                         //materialSkinManager.ColorScheme = new ColorScheme(Primary.Green600, Primary.Green700, Primary.Green200, Accent.Red100, TextShade.WHITE);
                     break;
             }
