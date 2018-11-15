@@ -124,7 +124,12 @@
   <ItemGroup>
     <None Include="IMG\animation-test-3.gif" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="CapaNegocio\CapaNegocio.csproj">
+      <Project>{90671f18-3b92-49c7-81f0-21ffd477406d}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

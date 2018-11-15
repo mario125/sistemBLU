@@ -7,12 +7,16 @@ using System.Text;
 //using Npgsql;
 using System.Data.Odbc;
 using System.Data;
+using CapaNegocio;
+
+
 
 namespace INTERFAS
 {
     public partial class PANEL : MaterialForm
     {
         private readonly MaterialSkinManager materialSkinManager;
+        CN_Empresa empresa = new CN_Empresa();
         public PANEL()
         {
             InitializeComponent();
@@ -52,13 +56,8 @@ namespace INTERFAS
 
         private void materialRaisedButton1_Click_1(object sender, EventArgs e)
         {
-            try
-            {
-
-            }catch(Exception )
-            {
-
-            }
+            empresa.InsertarEmpresa();
+            
         }
 
         private void materialRaisedButton3_Click(object sender, EventArgs e)
