@@ -32,36 +32,33 @@ namespace INTERFAS
             this.panel1 = new System.Windows.Forms.Panel();
             this.iTalk_TabControl1 = new iTalk_TabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.flatTabControl1 = new FlatUI.FlatTabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.materialSingleLineTextField3 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.iTalk_HeaderLabel1 = new iTalk_HeaderLabel();
-            this.iTalk_HeaderLabel2 = new iTalk_HeaderLabel();
-            this.materialSingleLineTextField5 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.iTalk_HeaderLabel3 = new iTalk_HeaderLabel();
-            this.materialSingleLineTextField7 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.iTalk_HeaderLabel4 = new iTalk_HeaderLabel();
-            this.materialSingleLineTextField10 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.iTalk_HeaderLabel5 = new iTalk_HeaderLabel();
-            this.materialSingleLineTextField11 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.iTalk_HeaderLabel6 = new iTalk_HeaderLabel();
-            this.materialSingleLineTextField12 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.iTalk_HeaderLabel7 = new iTalk_HeaderLabel();
-            this.materialSingleLineTextField13 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.iTalk_HeaderLabel8 = new iTalk_HeaderLabel();
-            this.materialSingleLineTextField14 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.iTalk_HeaderLabel9 = new iTalk_HeaderLabel();
-            this.materialSingleLineTextField15 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.iTalk_HeaderLabel10 = new iTalk_HeaderLabel();
-            this.materialSingleLineTextField16 = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.iTalk_HeaderLabel11 = new iTalk_HeaderLabel();
             this.materialSingleLineTextField17 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialSingleLineTextField11 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.iTalk_HeaderLabel1 = new iTalk_HeaderLabel();
+            this.materialSingleLineTextField14 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.iTalk_HeaderLabel10 = new iTalk_HeaderLabel();
+            this.iTalk_HeaderLabel3 = new iTalk_HeaderLabel();
+            this.materialSingleLineTextField7 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialSingleLineTextField10 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialSingleLineTextField3 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.iTalk_HeaderLabel8 = new iTalk_HeaderLabel();
+            this.materialSingleLineTextField12 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.iTalk_HeaderLabel7 = new iTalk_HeaderLabel();
+            this.materialSingleLineTextField16 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.iTalk_HeaderLabel4 = new iTalk_HeaderLabel();
+            this.iTalk_HeaderLabel5 = new iTalk_HeaderLabel();
+            this.materialSingleLineTextField15 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialSingleLineTextField5 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialSingleLineTextField13 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.iTalk_HeaderLabel6 = new iTalk_HeaderLabel();
+            this.iTalk_HeaderLabel2 = new iTalk_HeaderLabel();
+            this.iTalk_HeaderLabel9 = new iTalk_HeaderLabel();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.iTalk_HeaderLabel12 = new iTalk_HeaderLabel();
@@ -86,15 +83,19 @@ namespace INTERFAS
             this.iTalk_HeaderLabel20 = new iTalk_HeaderLabel();
             this.iTalk_HeaderLabel21 = new iTalk_HeaderLabel();
             this.iTalk_HeaderLabel22 = new iTalk_HeaderLabel();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.materialRaisedButton3 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.panel1.SuspendLayout();
             this.iTalk_TabControl1.SuspendLayout();
             this.tabPage4.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             this.flatTabControl1.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.tabPage5.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.tabPage5.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -137,46 +138,6 @@ namespace INTERFAS
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "tabPage4";
             // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-            this.tabPage1.Controls.Add(this.materialSingleLineTextField1);
-            this.tabPage1.Location = new System.Drawing.Point(139, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(967, 468);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
-            // 
-            // materialSingleLineTextField1
-            // 
-            this.materialSingleLineTextField1.Depth = 0;
-            this.materialSingleLineTextField1.Hint = "";
-            this.materialSingleLineTextField1.Location = new System.Drawing.Point(135, 155);
-            this.materialSingleLineTextField1.MaxLength = 32767;
-            this.materialSingleLineTextField1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField1.Name = "materialSingleLineTextField1";
-            this.materialSingleLineTextField1.PasswordChar = '\0';
-            this.materialSingleLineTextField1.SelectedText = "";
-            this.materialSingleLineTextField1.SelectionLength = 0;
-            this.materialSingleLineTextField1.SelectionStart = 0;
-            this.materialSingleLineTextField1.Size = new System.Drawing.Size(75, 23);
-            this.materialSingleLineTextField1.TabIndex = 0;
-            this.materialSingleLineTextField1.TabStop = false;
-            this.materialSingleLineTextField1.Text = "materialSingleLineTextField1";
-            this.materialSingleLineTextField1.UseSystemPasswordChar = false;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-            this.tabPage2.Location = new System.Drawing.Point(139, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(967, 468);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            // 
             // flatTabControl1
             // 
             this.flatTabControl1.ActiveColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
@@ -206,35 +167,106 @@ namespace INTERFAS
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "tabPage3";
             // 
-            // tabPage5
+            // panel2
             // 
-            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
-            this.tabPage5.Controls.Add(this.panel3);
-            this.tabPage5.Location = new System.Drawing.Point(4, 44);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(957, 551);
-            this.tabPage5.TabIndex = 1;
-            this.tabPage5.Text = "tabPage5";
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.materialRaisedButton3);
+            this.panel2.Controls.Add(this.materialRaisedButton1);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel11);
+            this.panel2.Controls.Add(this.materialSingleLineTextField17);
+            this.panel2.Controls.Add(this.materialSingleLineTextField11);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel1);
+            this.panel2.Controls.Add(this.materialSingleLineTextField14);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel10);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel3);
+            this.panel2.Controls.Add(this.materialSingleLineTextField7);
+            this.panel2.Controls.Add(this.materialSingleLineTextField10);
+            this.panel2.Controls.Add(this.materialSingleLineTextField3);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel8);
+            this.panel2.Controls.Add(this.materialSingleLineTextField12);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel7);
+            this.panel2.Controls.Add(this.materialSingleLineTextField16);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel4);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel5);
+            this.panel2.Controls.Add(this.materialSingleLineTextField15);
+            this.panel2.Controls.Add(this.materialSingleLineTextField5);
+            this.panel2.Controls.Add(this.materialSingleLineTextField13);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel6);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel2);
+            this.panel2.Controls.Add(this.iTalk_HeaderLabel9);
+            this.panel2.Location = new System.Drawing.Point(6, 6);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(847, 366);
+            this.panel2.TabIndex = 22;
             // 
-            // materialSingleLineTextField3
+            // materialRaisedButton1
             // 
-            this.materialSingleLineTextField3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.materialRaisedButton1.AutoSize = true;
+            this.materialRaisedButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialRaisedButton1.Depth = 0;
+            this.materialRaisedButton1.Icon = null;
+            this.materialRaisedButton1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialRaisedButton1.Location = new System.Drawing.Point(19, 308);
+            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton1.Name = "materialRaisedButton1";
+            this.materialRaisedButton1.Primary = true;
+            this.materialRaisedButton1.Size = new System.Drawing.Size(199, 36);
+            this.materialRaisedButton1.TabIndex = 24;
+            this.materialRaisedButton1.Text = "REGISTRAR NUEVO CLIENTE";
+            this.materialRaisedButton1.UseVisualStyleBackColor = true;
+            this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click_1);
+            // 
+            // iTalk_HeaderLabel11
+            // 
+            this.iTalk_HeaderLabel11.AutoSize = true;
+            this.iTalk_HeaderLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_HeaderLabel11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_HeaderLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.iTalk_HeaderLabel11.Location = new System.Drawing.Point(419, 194);
+            this.iTalk_HeaderLabel11.Name = "iTalk_HeaderLabel11";
+            this.iTalk_HeaderLabel11.Size = new System.Drawing.Size(161, 20);
+            this.iTalk_HeaderLabel11.TabIndex = 23;
+            this.iTalk_HeaderLabel11.Text = "TIPO DE DOCUMENTO:";
+            // 
+            // materialSingleLineTextField17
+            // 
+            this.materialSingleLineTextField17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField3.Depth = 0;
-            this.materialSingleLineTextField3.Hint = "";
-            this.materialSingleLineTextField3.Location = new System.Drawing.Point(19, 29);
-            this.materialSingleLineTextField3.MaxLength = 32767;
-            this.materialSingleLineTextField3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField3.Name = "materialSingleLineTextField3";
-            this.materialSingleLineTextField3.PasswordChar = '\0';
-            this.materialSingleLineTextField3.SelectedText = "";
-            this.materialSingleLineTextField3.SelectionLength = 0;
-            this.materialSingleLineTextField3.SelectionStart = 0;
-            this.materialSingleLineTextField3.Size = new System.Drawing.Size(371, 23);
-            this.materialSingleLineTextField3.TabIndex = 2;
-            this.materialSingleLineTextField3.TabStop = false;
-            this.materialSingleLineTextField3.UseSystemPasswordChar = false;
+            this.materialSingleLineTextField17.Depth = 0;
+            this.materialSingleLineTextField17.Hint = "";
+            this.materialSingleLineTextField17.Location = new System.Drawing.Point(423, 217);
+            this.materialSingleLineTextField17.MaxLength = 32767;
+            this.materialSingleLineTextField17.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField17.Name = "materialSingleLineTextField17";
+            this.materialSingleLineTextField17.PasswordChar = '\0';
+            this.materialSingleLineTextField17.SelectedText = "";
+            this.materialSingleLineTextField17.SelectionLength = 0;
+            this.materialSingleLineTextField17.SelectionStart = 0;
+            this.materialSingleLineTextField17.Size = new System.Drawing.Size(370, 23);
+            this.materialSingleLineTextField17.TabIndex = 22;
+            this.materialSingleLineTextField17.TabStop = false;
+            this.materialSingleLineTextField17.UseSystemPasswordChar = false;
+            // 
+            // materialSingleLineTextField11
+            // 
+            this.materialSingleLineTextField11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialSingleLineTextField11.Depth = 0;
+            this.materialSingleLineTextField11.Hint = "";
+            this.materialSingleLineTextField11.Location = new System.Drawing.Point(19, 217);
+            this.materialSingleLineTextField11.MaxLength = 32767;
+            this.materialSingleLineTextField11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField11.Name = "materialSingleLineTextField11";
+            this.materialSingleLineTextField11.PasswordChar = '\0';
+            this.materialSingleLineTextField11.SelectedText = "";
+            this.materialSingleLineTextField11.SelectionLength = 0;
+            this.materialSingleLineTextField11.SelectionStart = 0;
+            this.materialSingleLineTextField11.Size = new System.Drawing.Size(371, 23);
+            this.materialSingleLineTextField11.TabIndex = 10;
+            this.materialSingleLineTextField11.TabStop = false;
+            this.materialSingleLineTextField11.UseSystemPasswordChar = false;
             // 
             // iTalk_HeaderLabel1
             // 
@@ -248,36 +280,36 @@ namespace INTERFAS
             this.iTalk_HeaderLabel1.TabIndex = 3;
             this.iTalk_HeaderLabel1.Text = "EMPRESA:";
             // 
-            // iTalk_HeaderLabel2
+            // materialSingleLineTextField14
             // 
-            this.iTalk_HeaderLabel2.AutoSize = true;
-            this.iTalk_HeaderLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_HeaderLabel2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iTalk_HeaderLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.iTalk_HeaderLabel2.Location = new System.Drawing.Point(15, 53);
-            this.iTalk_HeaderLabel2.Name = "iTalk_HeaderLabel2";
-            this.iTalk_HeaderLabel2.Size = new System.Drawing.Size(157, 20);
-            this.iTalk_HeaderLabel2.TabIndex = 5;
-            this.iTalk_HeaderLabel2.Text = "NOMBRE COMERCIAL:";
-            // 
-            // materialSingleLineTextField5
-            // 
-            this.materialSingleLineTextField5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.materialSingleLineTextField14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField5.Depth = 0;
-            this.materialSingleLineTextField5.Hint = "";
-            this.materialSingleLineTextField5.Location = new System.Drawing.Point(19, 76);
-            this.materialSingleLineTextField5.MaxLength = 32767;
-            this.materialSingleLineTextField5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField5.Name = "materialSingleLineTextField5";
-            this.materialSingleLineTextField5.PasswordChar = '\0';
-            this.materialSingleLineTextField5.SelectedText = "";
-            this.materialSingleLineTextField5.SelectionLength = 0;
-            this.materialSingleLineTextField5.SelectionStart = 0;
-            this.materialSingleLineTextField5.Size = new System.Drawing.Size(371, 23);
-            this.materialSingleLineTextField5.TabIndex = 4;
-            this.materialSingleLineTextField5.TabStop = false;
-            this.materialSingleLineTextField5.UseSystemPasswordChar = false;
+            this.materialSingleLineTextField14.Depth = 0;
+            this.materialSingleLineTextField14.Hint = "";
+            this.materialSingleLineTextField14.Location = new System.Drawing.Point(423, 76);
+            this.materialSingleLineTextField14.MaxLength = 32767;
+            this.materialSingleLineTextField14.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField14.Name = "materialSingleLineTextField14";
+            this.materialSingleLineTextField14.PasswordChar = '\0';
+            this.materialSingleLineTextField14.SelectedText = "";
+            this.materialSingleLineTextField14.SelectionLength = 0;
+            this.materialSingleLineTextField14.SelectionStart = 0;
+            this.materialSingleLineTextField14.Size = new System.Drawing.Size(370, 23);
+            this.materialSingleLineTextField14.TabIndex = 16;
+            this.materialSingleLineTextField14.TabStop = false;
+            this.materialSingleLineTextField14.UseSystemPasswordChar = false;
+            // 
+            // iTalk_HeaderLabel10
+            // 
+            this.iTalk_HeaderLabel10.AutoSize = true;
+            this.iTalk_HeaderLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_HeaderLabel10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_HeaderLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.iTalk_HeaderLabel10.Location = new System.Drawing.Point(419, 149);
+            this.iTalk_HeaderLabel10.Name = "iTalk_HeaderLabel10";
+            this.iTalk_HeaderLabel10.Size = new System.Drawing.Size(74, 20);
+            this.iTalk_HeaderLabel10.TabIndex = 21;
+            this.iTalk_HeaderLabel10.Text = "DISTRITO:";
             // 
             // iTalk_HeaderLabel3
             // 
@@ -310,18 +342,6 @@ namespace INTERFAS
             this.materialSingleLineTextField7.TabStop = false;
             this.materialSingleLineTextField7.UseSystemPasswordChar = false;
             // 
-            // iTalk_HeaderLabel4
-            // 
-            this.iTalk_HeaderLabel4.AutoSize = true;
-            this.iTalk_HeaderLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_HeaderLabel4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iTalk_HeaderLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.iTalk_HeaderLabel4.Location = new System.Drawing.Point(15, 147);
-            this.iTalk_HeaderLabel4.Name = "iTalk_HeaderLabel4";
-            this.iTalk_HeaderLabel4.Size = new System.Drawing.Size(40, 20);
-            this.iTalk_HeaderLabel4.TabIndex = 9;
-            this.iTalk_HeaderLabel4.Text = "RUC:";
-            // 
             // materialSingleLineTextField10
             // 
             this.materialSingleLineTextField10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -341,48 +361,36 @@ namespace INTERFAS
             this.materialSingleLineTextField10.TabStop = false;
             this.materialSingleLineTextField10.UseSystemPasswordChar = false;
             // 
-            // iTalk_HeaderLabel5
+            // materialSingleLineTextField3
             // 
-            this.iTalk_HeaderLabel5.AutoSize = true;
-            this.iTalk_HeaderLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_HeaderLabel5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iTalk_HeaderLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.iTalk_HeaderLabel5.Location = new System.Drawing.Point(15, 194);
-            this.iTalk_HeaderLabel5.Name = "iTalk_HeaderLabel5";
-            this.iTalk_HeaderLabel5.Size = new System.Drawing.Size(57, 20);
-            this.iTalk_HeaderLabel5.TabIndex = 11;
-            this.iTalk_HeaderLabel5.Text = "FECHA:";
-            // 
-            // materialSingleLineTextField11
-            // 
-            this.materialSingleLineTextField11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.materialSingleLineTextField3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField11.Depth = 0;
-            this.materialSingleLineTextField11.Hint = "";
-            this.materialSingleLineTextField11.Location = new System.Drawing.Point(19, 217);
-            this.materialSingleLineTextField11.MaxLength = 32767;
-            this.materialSingleLineTextField11.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField11.Name = "materialSingleLineTextField11";
-            this.materialSingleLineTextField11.PasswordChar = '\0';
-            this.materialSingleLineTextField11.SelectedText = "";
-            this.materialSingleLineTextField11.SelectionLength = 0;
-            this.materialSingleLineTextField11.SelectionStart = 0;
-            this.materialSingleLineTextField11.Size = new System.Drawing.Size(371, 23);
-            this.materialSingleLineTextField11.TabIndex = 10;
-            this.materialSingleLineTextField11.TabStop = false;
-            this.materialSingleLineTextField11.UseSystemPasswordChar = false;
+            this.materialSingleLineTextField3.Depth = 0;
+            this.materialSingleLineTextField3.Hint = "";
+            this.materialSingleLineTextField3.Location = new System.Drawing.Point(19, 29);
+            this.materialSingleLineTextField3.MaxLength = 32767;
+            this.materialSingleLineTextField3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField3.Name = "materialSingleLineTextField3";
+            this.materialSingleLineTextField3.PasswordChar = '\0';
+            this.materialSingleLineTextField3.SelectedText = "";
+            this.materialSingleLineTextField3.SelectionLength = 0;
+            this.materialSingleLineTextField3.SelectionStart = 0;
+            this.materialSingleLineTextField3.Size = new System.Drawing.Size(371, 23);
+            this.materialSingleLineTextField3.TabIndex = 2;
+            this.materialSingleLineTextField3.TabStop = false;
+            this.materialSingleLineTextField3.UseSystemPasswordChar = false;
             // 
-            // iTalk_HeaderLabel6
+            // iTalk_HeaderLabel8
             // 
-            this.iTalk_HeaderLabel6.AutoSize = true;
-            this.iTalk_HeaderLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_HeaderLabel6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iTalk_HeaderLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.iTalk_HeaderLabel6.Location = new System.Drawing.Point(15, 241);
-            this.iTalk_HeaderLabel6.Name = "iTalk_HeaderLabel6";
-            this.iTalk_HeaderLabel6.Size = new System.Drawing.Size(184, 20);
-            this.iTalk_HeaderLabel6.TabIndex = 13;
-            this.iTalk_HeaderLabel6.Text = "TIPO DE CONTRIBUYENTE:";
+            this.iTalk_HeaderLabel8.AutoSize = true;
+            this.iTalk_HeaderLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_HeaderLabel8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_HeaderLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.iTalk_HeaderLabel8.Location = new System.Drawing.Point(419, 53);
+            this.iTalk_HeaderLabel8.Name = "iTalk_HeaderLabel8";
+            this.iTalk_HeaderLabel8.Size = new System.Drawing.Size(123, 20);
+            this.iTalk_HeaderLabel8.TabIndex = 17;
+            this.iTalk_HeaderLabel8.Text = "DEPARTAMENTO:";
             // 
             // materialSingleLineTextField12
             // 
@@ -415,67 +423,48 @@ namespace INTERFAS
             this.iTalk_HeaderLabel7.TabIndex = 15;
             this.iTalk_HeaderLabel7.Text = "UBIGEO:";
             // 
-            // materialSingleLineTextField13
+            // materialSingleLineTextField16
             // 
-            this.materialSingleLineTextField13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.materialSingleLineTextField16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField13.Depth = 0;
-            this.materialSingleLineTextField13.Hint = "";
-            this.materialSingleLineTextField13.Location = new System.Drawing.Point(423, 30);
-            this.materialSingleLineTextField13.MaxLength = 32767;
-            this.materialSingleLineTextField13.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField13.Name = "materialSingleLineTextField13";
-            this.materialSingleLineTextField13.PasswordChar = '\0';
-            this.materialSingleLineTextField13.SelectedText = "";
-            this.materialSingleLineTextField13.SelectionLength = 0;
-            this.materialSingleLineTextField13.SelectionStart = 0;
-            this.materialSingleLineTextField13.Size = new System.Drawing.Size(370, 23);
-            this.materialSingleLineTextField13.TabIndex = 14;
-            this.materialSingleLineTextField13.TabStop = false;
-            this.materialSingleLineTextField13.UseSystemPasswordChar = false;
+            this.materialSingleLineTextField16.Depth = 0;
+            this.materialSingleLineTextField16.Hint = "";
+            this.materialSingleLineTextField16.Location = new System.Drawing.Point(423, 172);
+            this.materialSingleLineTextField16.MaxLength = 32767;
+            this.materialSingleLineTextField16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField16.Name = "materialSingleLineTextField16";
+            this.materialSingleLineTextField16.PasswordChar = '\0';
+            this.materialSingleLineTextField16.SelectedText = "";
+            this.materialSingleLineTextField16.SelectionLength = 0;
+            this.materialSingleLineTextField16.SelectionStart = 0;
+            this.materialSingleLineTextField16.Size = new System.Drawing.Size(370, 23);
+            this.materialSingleLineTextField16.TabIndex = 20;
+            this.materialSingleLineTextField16.TabStop = false;
+            this.materialSingleLineTextField16.UseSystemPasswordChar = false;
             // 
-            // iTalk_HeaderLabel8
+            // iTalk_HeaderLabel4
             // 
-            this.iTalk_HeaderLabel8.AutoSize = true;
-            this.iTalk_HeaderLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_HeaderLabel8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iTalk_HeaderLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.iTalk_HeaderLabel8.Location = new System.Drawing.Point(419, 53);
-            this.iTalk_HeaderLabel8.Name = "iTalk_HeaderLabel8";
-            this.iTalk_HeaderLabel8.Size = new System.Drawing.Size(127, 20);
-            this.iTalk_HeaderLabel8.TabIndex = 17;
-            this.iTalk_HeaderLabel8.Text = "DEPARTAMENTO:";
+            this.iTalk_HeaderLabel4.AutoSize = true;
+            this.iTalk_HeaderLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_HeaderLabel4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_HeaderLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.iTalk_HeaderLabel4.Location = new System.Drawing.Point(15, 147);
+            this.iTalk_HeaderLabel4.Name = "iTalk_HeaderLabel4";
+            this.iTalk_HeaderLabel4.Size = new System.Drawing.Size(40, 20);
+            this.iTalk_HeaderLabel4.TabIndex = 9;
+            this.iTalk_HeaderLabel4.Text = "RUC:";
             // 
-            // materialSingleLineTextField14
+            // iTalk_HeaderLabel5
             // 
-            this.materialSingleLineTextField14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField14.Depth = 0;
-            this.materialSingleLineTextField14.Hint = "";
-            this.materialSingleLineTextField14.Location = new System.Drawing.Point(423, 76);
-            this.materialSingleLineTextField14.MaxLength = 32767;
-            this.materialSingleLineTextField14.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField14.Name = "materialSingleLineTextField14";
-            this.materialSingleLineTextField14.PasswordChar = '\0';
-            this.materialSingleLineTextField14.SelectedText = "";
-            this.materialSingleLineTextField14.SelectionLength = 0;
-            this.materialSingleLineTextField14.SelectionStart = 0;
-            this.materialSingleLineTextField14.Size = new System.Drawing.Size(370, 23);
-            this.materialSingleLineTextField14.TabIndex = 16;
-            this.materialSingleLineTextField14.TabStop = false;
-            this.materialSingleLineTextField14.UseSystemPasswordChar = false;
-            // 
-            // iTalk_HeaderLabel9
-            // 
-            this.iTalk_HeaderLabel9.AutoSize = true;
-            this.iTalk_HeaderLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_HeaderLabel9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iTalk_HeaderLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.iTalk_HeaderLabel9.Location = new System.Drawing.Point(419, 102);
-            this.iTalk_HeaderLabel9.Name = "iTalk_HeaderLabel9";
-            this.iTalk_HeaderLabel9.Size = new System.Drawing.Size(87, 20);
-            this.iTalk_HeaderLabel9.TabIndex = 19;
-            this.iTalk_HeaderLabel9.Text = "PROVINCIA:";
+            this.iTalk_HeaderLabel5.AutoSize = true;
+            this.iTalk_HeaderLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_HeaderLabel5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_HeaderLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.iTalk_HeaderLabel5.Location = new System.Drawing.Point(15, 194);
+            this.iTalk_HeaderLabel5.Name = "iTalk_HeaderLabel5";
+            this.iTalk_HeaderLabel5.Size = new System.Drawing.Size(57, 20);
+            this.iTalk_HeaderLabel5.TabIndex = 11;
+            this.iTalk_HeaderLabel5.Text = "FECHA:";
             // 
             // materialSingleLineTextField15
             // 
@@ -496,117 +485,90 @@ namespace INTERFAS
             this.materialSingleLineTextField15.TabStop = false;
             this.materialSingleLineTextField15.UseSystemPasswordChar = false;
             // 
-            // iTalk_HeaderLabel10
+            // materialSingleLineTextField5
             // 
-            this.iTalk_HeaderLabel10.AutoSize = true;
-            this.iTalk_HeaderLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_HeaderLabel10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iTalk_HeaderLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.iTalk_HeaderLabel10.Location = new System.Drawing.Point(419, 149);
-            this.iTalk_HeaderLabel10.Name = "iTalk_HeaderLabel10";
-            this.iTalk_HeaderLabel10.Size = new System.Drawing.Size(75, 20);
-            this.iTalk_HeaderLabel10.TabIndex = 21;
-            this.iTalk_HeaderLabel10.Text = "DISTRITO:";
-            // 
-            // materialSingleLineTextField16
-            // 
-            this.materialSingleLineTextField16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.materialSingleLineTextField5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField16.Depth = 0;
-            this.materialSingleLineTextField16.Hint = "";
-            this.materialSingleLineTextField16.Location = new System.Drawing.Point(423, 172);
-            this.materialSingleLineTextField16.MaxLength = 32767;
-            this.materialSingleLineTextField16.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField16.Name = "materialSingleLineTextField16";
-            this.materialSingleLineTextField16.PasswordChar = '\0';
-            this.materialSingleLineTextField16.SelectedText = "";
-            this.materialSingleLineTextField16.SelectionLength = 0;
-            this.materialSingleLineTextField16.SelectionStart = 0;
-            this.materialSingleLineTextField16.Size = new System.Drawing.Size(370, 23);
-            this.materialSingleLineTextField16.TabIndex = 20;
-            this.materialSingleLineTextField16.TabStop = false;
-            this.materialSingleLineTextField16.UseSystemPasswordChar = false;
+            this.materialSingleLineTextField5.Depth = 0;
+            this.materialSingleLineTextField5.Hint = "";
+            this.materialSingleLineTextField5.Location = new System.Drawing.Point(19, 76);
+            this.materialSingleLineTextField5.MaxLength = 32767;
+            this.materialSingleLineTextField5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField5.Name = "materialSingleLineTextField5";
+            this.materialSingleLineTextField5.PasswordChar = '\0';
+            this.materialSingleLineTextField5.SelectedText = "";
+            this.materialSingleLineTextField5.SelectionLength = 0;
+            this.materialSingleLineTextField5.SelectionStart = 0;
+            this.materialSingleLineTextField5.Size = new System.Drawing.Size(371, 23);
+            this.materialSingleLineTextField5.TabIndex = 4;
+            this.materialSingleLineTextField5.TabStop = false;
+            this.materialSingleLineTextField5.UseSystemPasswordChar = false;
             // 
-            // panel2
+            // materialSingleLineTextField13
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.materialRaisedButton1);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel11);
-            this.panel2.Controls.Add(this.materialSingleLineTextField17);
-            this.panel2.Controls.Add(this.materialSingleLineTextField11);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel1);
-            this.panel2.Controls.Add(this.materialSingleLineTextField14);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel10);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel3);
-            this.panel2.Controls.Add(this.materialSingleLineTextField7);
-            this.panel2.Controls.Add(this.materialSingleLineTextField10);
-            this.panel2.Controls.Add(this.materialSingleLineTextField3);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel8);
-            this.panel2.Controls.Add(this.materialSingleLineTextField12);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel7);
-            this.panel2.Controls.Add(this.materialSingleLineTextField16);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel4);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel5);
-            this.panel2.Controls.Add(this.materialSingleLineTextField15);
-            this.panel2.Controls.Add(this.materialSingleLineTextField5);
-            this.panel2.Controls.Add(this.materialSingleLineTextField13);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel6);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel2);
-            this.panel2.Controls.Add(this.iTalk_HeaderLabel9);
-            this.panel2.Location = new System.Drawing.Point(6, 6);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(847, 366);
-            this.panel2.TabIndex = 22;
-            // 
-            // iTalk_HeaderLabel11
-            // 
-            this.iTalk_HeaderLabel11.AutoSize = true;
-            this.iTalk_HeaderLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.iTalk_HeaderLabel11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iTalk_HeaderLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.iTalk_HeaderLabel11.Location = new System.Drawing.Point(419, 194);
-            this.iTalk_HeaderLabel11.Name = "iTalk_HeaderLabel11";
-            this.iTalk_HeaderLabel11.Size = new System.Drawing.Size(162, 20);
-            this.iTalk_HeaderLabel11.TabIndex = 23;
-            this.iTalk_HeaderLabel11.Text = "TIPO DE DOCUMENTO:";
-            // 
-            // materialSingleLineTextField17
-            // 
-            this.materialSingleLineTextField17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.materialSingleLineTextField13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField17.Depth = 0;
-            this.materialSingleLineTextField17.Hint = "";
-            this.materialSingleLineTextField17.Location = new System.Drawing.Point(423, 217);
-            this.materialSingleLineTextField17.MaxLength = 32767;
-            this.materialSingleLineTextField17.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField17.Name = "materialSingleLineTextField17";
-            this.materialSingleLineTextField17.PasswordChar = '\0';
-            this.materialSingleLineTextField17.SelectedText = "";
-            this.materialSingleLineTextField17.SelectionLength = 0;
-            this.materialSingleLineTextField17.SelectionStart = 0;
-            this.materialSingleLineTextField17.Size = new System.Drawing.Size(370, 23);
-            this.materialSingleLineTextField17.TabIndex = 22;
-            this.materialSingleLineTextField17.TabStop = false;
-            this.materialSingleLineTextField17.UseSystemPasswordChar = false;
+            this.materialSingleLineTextField13.Depth = 0;
+            this.materialSingleLineTextField13.Hint = "";
+            this.materialSingleLineTextField13.Location = new System.Drawing.Point(423, 30);
+            this.materialSingleLineTextField13.MaxLength = 32767;
+            this.materialSingleLineTextField13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField13.Name = "materialSingleLineTextField13";
+            this.materialSingleLineTextField13.PasswordChar = '\0';
+            this.materialSingleLineTextField13.SelectedText = "";
+            this.materialSingleLineTextField13.SelectionLength = 0;
+            this.materialSingleLineTextField13.SelectionStart = 0;
+            this.materialSingleLineTextField13.Size = new System.Drawing.Size(370, 23);
+            this.materialSingleLineTextField13.TabIndex = 14;
+            this.materialSingleLineTextField13.TabStop = false;
+            this.materialSingleLineTextField13.UseSystemPasswordChar = false;
             // 
-            // materialRaisedButton1
+            // iTalk_HeaderLabel6
             // 
-            this.materialRaisedButton1.AutoSize = true;
-            this.materialRaisedButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Icon = null;
-            this.materialRaisedButton1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(19, 308);
-            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton1.Name = "materialRaisedButton1";
-            this.materialRaisedButton1.Primary = true;
-            this.materialRaisedButton1.Size = new System.Drawing.Size(199, 36);
-            this.materialRaisedButton1.TabIndex = 24;
-            this.materialRaisedButton1.Text = "REGISTRAR NUEVO CLIENTE";
-            this.materialRaisedButton1.UseVisualStyleBackColor = true;
-            this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click_1);
+            this.iTalk_HeaderLabel6.AutoSize = true;
+            this.iTalk_HeaderLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_HeaderLabel6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_HeaderLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.iTalk_HeaderLabel6.Location = new System.Drawing.Point(15, 241);
+            this.iTalk_HeaderLabel6.Name = "iTalk_HeaderLabel6";
+            this.iTalk_HeaderLabel6.Size = new System.Drawing.Size(184, 20);
+            this.iTalk_HeaderLabel6.TabIndex = 13;
+            this.iTalk_HeaderLabel6.Text = "TIPO DE CONTRIBUYENTE:";
+            // 
+            // iTalk_HeaderLabel2
+            // 
+            this.iTalk_HeaderLabel2.AutoSize = true;
+            this.iTalk_HeaderLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_HeaderLabel2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_HeaderLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.iTalk_HeaderLabel2.Location = new System.Drawing.Point(15, 53);
+            this.iTalk_HeaderLabel2.Name = "iTalk_HeaderLabel2";
+            this.iTalk_HeaderLabel2.Size = new System.Drawing.Size(157, 20);
+            this.iTalk_HeaderLabel2.TabIndex = 5;
+            this.iTalk_HeaderLabel2.Text = "NOMBRE COMERCIAL:";
+            // 
+            // iTalk_HeaderLabel9
+            // 
+            this.iTalk_HeaderLabel9.AutoSize = true;
+            this.iTalk_HeaderLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.iTalk_HeaderLabel9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iTalk_HeaderLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.iTalk_HeaderLabel9.Location = new System.Drawing.Point(419, 102);
+            this.iTalk_HeaderLabel9.Name = "iTalk_HeaderLabel9";
+            this.iTalk_HeaderLabel9.Size = new System.Drawing.Size(87, 20);
+            this.iTalk_HeaderLabel9.TabIndex = 19;
+            this.iTalk_HeaderLabel9.Text = "PROVINCIA:";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
+            this.tabPage5.Controls.Add(this.panel3);
+            this.tabPage5.Location = new System.Drawing.Point(4, 44);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(957, 551);
+            this.tabPage5.TabIndex = 1;
+            this.tabPage5.Text = "tabPage5";
             // 
             // panel3
             // 
@@ -665,7 +627,7 @@ namespace INTERFAS
             this.iTalk_HeaderLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.iTalk_HeaderLabel12.Location = new System.Drawing.Point(419, 194);
             this.iTalk_HeaderLabel12.Name = "iTalk_HeaderLabel12";
-            this.iTalk_HeaderLabel12.Size = new System.Drawing.Size(162, 20);
+            this.iTalk_HeaderLabel12.Size = new System.Drawing.Size(161, 20);
             this.iTalk_HeaderLabel12.TabIndex = 23;
             this.iTalk_HeaderLabel12.Text = "TIPO DE DOCUMENTO:";
             // 
@@ -746,7 +708,7 @@ namespace INTERFAS
             this.iTalk_HeaderLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.iTalk_HeaderLabel14.Location = new System.Drawing.Point(419, 149);
             this.iTalk_HeaderLabel14.Name = "iTalk_HeaderLabel14";
-            this.iTalk_HeaderLabel14.Size = new System.Drawing.Size(75, 20);
+            this.iTalk_HeaderLabel14.Size = new System.Drawing.Size(74, 20);
             this.iTalk_HeaderLabel14.TabIndex = 21;
             this.iTalk_HeaderLabel14.Text = "DISTRITO:";
             // 
@@ -827,7 +789,7 @@ namespace INTERFAS
             this.iTalk_HeaderLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.iTalk_HeaderLabel16.Location = new System.Drawing.Point(419, 53);
             this.iTalk_HeaderLabel16.Name = "iTalk_HeaderLabel16";
-            this.iTalk_HeaderLabel16.Size = new System.Drawing.Size(127, 20);
+            this.iTalk_HeaderLabel16.Size = new System.Drawing.Size(123, 20);
             this.iTalk_HeaderLabel16.TabIndex = 17;
             this.iTalk_HeaderLabel16.Text = "DEPARTAMENTO:";
             // 
@@ -998,6 +960,62 @@ namespace INTERFAS
             this.iTalk_HeaderLabel22.TabIndex = 19;
             this.iTalk_HeaderLabel22.Text = "PROVINCIA:";
             // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+            this.tabPage1.Controls.Add(this.materialSingleLineTextField1);
+            this.tabPage1.Location = new System.Drawing.Point(139, 4);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(967, 468);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // materialSingleLineTextField1
+            // 
+            this.materialSingleLineTextField1.Depth = 0;
+            this.materialSingleLineTextField1.Hint = "";
+            this.materialSingleLineTextField1.Location = new System.Drawing.Point(135, 155);
+            this.materialSingleLineTextField1.MaxLength = 32767;
+            this.materialSingleLineTextField1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSingleLineTextField1.Name = "materialSingleLineTextField1";
+            this.materialSingleLineTextField1.PasswordChar = '\0';
+            this.materialSingleLineTextField1.SelectedText = "";
+            this.materialSingleLineTextField1.SelectionLength = 0;
+            this.materialSingleLineTextField1.SelectionStart = 0;
+            this.materialSingleLineTextField1.Size = new System.Drawing.Size(75, 23);
+            this.materialSingleLineTextField1.TabIndex = 0;
+            this.materialSingleLineTextField1.TabStop = false;
+            this.materialSingleLineTextField1.Text = "materialSingleLineTextField1";
+            this.materialSingleLineTextField1.UseSystemPasswordChar = false;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+            this.tabPage2.Location = new System.Drawing.Point(139, 4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(967, 468);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            // 
+            // materialRaisedButton3
+            // 
+            this.materialRaisedButton3.AutoSize = true;
+            this.materialRaisedButton3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialRaisedButton3.Depth = 0;
+            this.materialRaisedButton3.Icon = null;
+            this.materialRaisedButton3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.materialRaisedButton3.Location = new System.Drawing.Point(343, 308);
+            this.materialRaisedButton3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton3.Name = "materialRaisedButton3";
+            this.materialRaisedButton3.Primary = true;
+            this.materialRaisedButton3.Size = new System.Drawing.Size(199, 36);
+            this.materialRaisedButton3.TabIndex = 25;
+            this.materialRaisedButton3.Text = "REGISTRAR NUEVO CLIENTE";
+            this.materialRaisedButton3.UseVisualStyleBackColor = true;
+            // 
             // PANEL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1012,14 +1030,14 @@ namespace INTERFAS
             this.panel1.ResumeLayout(false);
             this.iTalk_TabControl1.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
             this.flatTabControl1.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
-            this.tabPage5.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1084,6 +1102,7 @@ namespace INTERFAS
         private iTalk_HeaderLabel iTalk_HeaderLabel20;
         private iTalk_HeaderLabel iTalk_HeaderLabel21;
         private iTalk_HeaderLabel iTalk_HeaderLabel22;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton3;
     }
 }
 
