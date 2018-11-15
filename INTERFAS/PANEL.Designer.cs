@@ -1015,6 +1015,7 @@ namespace INTERFAS
             this.materialRaisedButton3.TabIndex = 25;
             this.materialRaisedButton3.Text = "REGISTRAR NUEVO CLIENTE";
             this.materialRaisedButton3.UseVisualStyleBackColor = true;
+            this.materialRaisedButton3.Click += new System.EventHandler(this.materialRaisedButton3_Click);
             // 
             // PANEL
             // 
