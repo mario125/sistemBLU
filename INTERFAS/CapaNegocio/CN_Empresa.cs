@@ -2,38 +2,52 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using capaData;
+using System.Data.Odbc;
 using System.Data;
-using System.Data.SqlClient;
-using CapaDatos;
-
-namespace CapaNegocio
+using Npgsql;
+namespace capaNegocio
 {
     public class CN_Empresa
     {
-        private CD_Empresa objetoCD = new CD_Empresa();
+        
+        private CD_Empresa objData = new CD_Empresa();
+        private string _ruc;
+        private string _rmpresa;
+        private string _direccion;
+        private string _fecha;
+        private string _nombre_comercial;
+        private string _tipo_contributente;
+        private int    _ibigeo;
+        private string _;
+        private string _;
+        private string _;
+        private string _;
+        private string _;
+        private string _;
+        
+        
 
-        public DataTable MostrarProd() {
-
-            DataTable tabla = new DataTable();
-            tabla = objetoCD.Mostrar();
-            return tabla;
-        }
-        public void InsertarEmpresa ( string empresa,string nom_comercial,string direccion,string fecha, string tip_contri , string ubigeo , string departamento, string provincia ,string distrito, string tip_doc)
+        public string Usuario
         {
-
-            objetoCD.Insertar(empresa, nom_comercial, direccion, fecha,  tip_contri, ubigeo,  departamento, provincia,  distrito,  tip_doc);
+            set { _usuari = value; }
+            get { return _usuario; }
         }
-
-        public void EditarEmpresa(string nombre, string desc, string marca, string precio, string stock,string id)
+        public string Password
         {
-            objetoCD.Editar(nombre, desc, marca, Convert.ToDouble(precio), Convert.ToInt32(stock),Convert.ToInt32(id));
+            set { _password = value; }
+            get { return _password; }
         }
 
-        public void EliminarEmpresa(string id) {
-
-            objetoCD.Eliminar(Convert.ToInt32(id));
+        // constructor
+        public CN_Empresa() { }
+        public NpgsqlDataReader insert()
+        {
+            NpgsqlDataReader loguin;
+            loguin = objData.Select(Usuario,Password);
+            return loguin;
         }
+
 
     }
 }
