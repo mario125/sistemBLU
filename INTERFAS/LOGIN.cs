@@ -56,7 +56,7 @@ namespace INTERFAS
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)
         {
-            PANEL fm = new PANEL();
+            Dialog_Error fm = new Dialog_Error();
             this.Hide();
             fm.ShowDialog();
             this.Close();

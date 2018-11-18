@@ -1,23 +1,27 @@
-E:\TUT\PROYECTOS\CRUD_NCAPASSQL\CapaNegocio\bin\Debug\CapaNegocio.dll
-E:\TUT\PROYECTOS\CRUD_NCAPASSQL\CapaNegocio\bin\Debug\CapaNegocio.pdb
-E:\TUT\PROYECTOS\CRUD_NCAPASSQL\CapaNegocio\bin\Debug\CapaDatos.dll
-E:\TUT\PROYECTOS\CRUD_NCAPASSQL\CapaNegocio\bin\Debug\CapaDatos.pdb
-E:\TUT\PROYECTOS\CRUD_NCAPASSQL\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
-E:\TUT\PROYECTOS\CRUD_NCAPASSQL\CapaNegocio\obj\Debug\CapaNegocio.dll
-E:\TUT\PROYECTOS\CRUD_NCAPASSQL\CapaNegocio\obj\Debug\CapaNegocio.pdb
-C:\Users\RONETJOHN\Downloads\Practica CRUD SQL c search\CapaNegocio\bin\Debug\CapaNegocio.dll
-C:\Users\RONETJOHN\Downloads\Practica CRUD SQL c search\CapaNegocio\bin\Debug\CapaNegocio.pdb
-C:\Users\RONETJOHN\Downloads\Practica CRUD SQL c search\CapaNegocio\bin\Debug\CapaDatos.dll
-C:\Users\RONETJOHN\Downloads\Practica CRUD SQL c search\CapaNegocio\bin\Debug\CapaDatos.pdb
-C:\Users\RONETJOHN\Downloads\Practica CRUD SQL c search\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
-C:\Users\RONETJOHN\Downloads\Practica CRUD SQL c search\CapaNegocio\obj\Debug\CapaNegocio.dll
-C:\Users\RONETJOHN\Downloads\Practica CRUD SQL c search\CapaNegocio\obj\Debug\CapaNegocio.pdb
-C:\Users\Mario\Downloads\CRUD NCAPAS\Practica CRUD SQL c search\CapaNegocio\bin\Debug\CapaNegocio.dll
-C:\Users\Mario\Downloads\CRUD NCAPAS\Practica CRUD SQL c search\CapaNegocio\bin\Debug\CapaNegocio.pdb
-C:\Users\Mario\Downloads\CRUD NCAPAS\Practica CRUD SQL c search\CapaNegocio\bin\Debug\CapaDatos.dll
-C:\Users\Mario\Downloads\CRUD NCAPAS\Practica CRUD SQL c search\CapaNegocio\bin\Debug\CapaDatos.pdb
-C:\Users\Mario\Downloads\CRUD NCAPAS\Practica CRUD SQL c search\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
-C:\Users\Mario\Downloads\CRUD NCAPAS\Practica CRUD SQL c search\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
-C:\Users\Mario\Downloads\CRUD NCAPAS\Practica CRUD SQL c search\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
-C:\Users\Mario\Downloads\CRUD NCAPAS\Practica CRUD SQL c search\CapaNegocio\obj\Debug\CapaNegocio.dll
-C:\Users\Mario\Downloads\CRUD NCAPAS\Practica CRUD SQL c search\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\mario\Desktop\UI_LoginPage_3\capaNegocio\bin\Debug\capaNegocio.dll
+C:\Users\mario\Desktop\UI_LoginPage_3\capaNegocio\bin\Debug\capaNegocio.pdb
+C:\Users\mario\Desktop\UI_LoginPage_3\capaNegocio\bin\Debug\capaData.dll
+C:\Users\mario\Desktop\UI_LoginPage_3\capaNegocio\bin\Debug\capaData.pdb
+C:\Users\mario\Desktop\UI_LoginPage_3\capaNegocio\obj\Debug\capaNegocio.csprojAssemblyReference.cache
+C:\Users\mario\Desktop\UI_LoginPage_3\capaNegocio\obj\Debug\capaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\mario\Desktop\UI_LoginPage_3\capaNegocio\obj\Debug\capaNegocio.csproj.CopyComplete
+C:\Users\mario\Desktop\UI_LoginPage_3\capaNegocio\obj\Debug\capaNegocio.dll
+C:\Users\mario\Desktop\UI_LoginPage_3\capaNegocio\obj\Debug\capaNegocio.pdb
+C:\Users\Mario\Downloads\CONEXION-POSTGRES-C--master\UI_LoginPage_3\capaNegocio\bin\Debug\capaNegocio.dll
+C:\Users\Mario\Downloads\CONEXION-POSTGRES-C--master\UI_LoginPage_3\capaNegocio\bin\Debug\capaNegocio.pdb
+C:\Users\Mario\Downloads\CONEXION-POSTGRES-C--master\UI_LoginPage_3\capaNegocio\bin\Debug\capaData.dll
+C:\Users\Mario\Downloads\CONEXION-POSTGRES-C--master\UI_LoginPage_3\capaNegocio\bin\Debug\capaData.pdb
+C:\Users\Mario\Downloads\CONEXION-POSTGRES-C--master\UI_LoginPage_3\capaNegocio\obj\Debug\capaNegocio.csprojAssemblyReference.cache
+C:\Users\Mario\Downloads\CONEXION-POSTGRES-C--master\UI_LoginPage_3\capaNegocio\obj\Debug\capaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Mario\Downloads\CONEXION-POSTGRES-C--master\UI_LoginPage_3\capaNegocio\obj\Debug\capaNegocio.csproj.CopyComplete
+C:\Users\Mario\Downloads\CONEXION-POSTGRES-C--master\UI_LoginPage_3\capaNegocio\obj\Debug\capaNegocio.dll
+C:\Users\Mario\Downloads\CONEXION-POSTGRES-C--master\UI_LoginPage_3\capaNegocio\obj\Debug\capaNegocio.pdb
+D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\bin\Debug\capaNegocio.dll
+D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\bin\Debug\capaNegocio.pdb
+D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\bin\Debug\capaData.dll
+D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\bin\Debug\capaData.pdb
+D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.csprojAssemblyReference.cache
+D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.csproj.CoreCompileInputs.cache
+D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.csproj.CopyComplete
+D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.dll
+D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.pdb

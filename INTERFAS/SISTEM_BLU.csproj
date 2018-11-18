@@ -37,7 +37,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>INTERFAS.Program</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ComponentFactory.Krypton.Toolkit">
@@ -70,12 +71,6 @@
     <Compile Include="Dialog_Error.Designer.cs">
       <DependentUpon>Dialog_Error.cs</DependentUpon>
     </Compile>
-    <Compile Include="PANEL.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PANEL.Designer.cs">
-      <DependentUpon>PANEL.cs</DependentUpon>
-    </Compile>
     <Compile Include="LOGIN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,9 +85,6 @@
     <Compile Include="THEME\italk.cs" />
     <EmbeddedResource Include="Dialog_Error.resx">
       <DependentUpon>Dialog_Error.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PANEL.resx">
-      <DependentUpon>PANEL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LOGIN.resx">
       <DependentUpon>LOGIN.cs</DependentUpon>
@@ -124,7 +116,16 @@
   <ItemGroup>
     <None Include="IMG\animation-test-3.gif" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="capaData\capaData.csproj">
+      <Project>{4d16e739-6bee-4ff0-ae75-f2b3b9e26b20}</Project>
+      <Name>capaData</Name>
+    </ProjectReference>
+    <ProjectReference Include="capaNegocio\capaNegocio.csproj">
+      <Project>{aad60d11-283c-4fd6-bbe9-d897cd1b02f3}</Project>
+      <Name>capaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

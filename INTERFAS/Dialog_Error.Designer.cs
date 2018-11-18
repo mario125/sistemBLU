@@ -31,6 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,12 +72,23 @@
             this.materialLabel1.TabIndex = 0;
             this.materialLabel1.Text = "ERROR";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(127, 111);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Dialog_Error
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(426, 213);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Cornsilk;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -97,5 +109,6 @@
         private System.Windows.Forms.Panel panel1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private System.Windows.Forms.Button button1;
     }
 }

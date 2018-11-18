@@ -8,16 +8,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
-
- 
-
-
-
+using Npgsql;
+using capaNegocio;
 namespace INTERFAS
 {
     public partial class Dialog_Error : Form 
     {
-       
+        CN_Empresa empresa = new CN_Empresa();
         public Dialog_Error()
         {
             InitializeComponent();         
@@ -37,6 +34,29 @@ namespace INTERFAS
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // objLog = new ClassNLogin();
+            NpgsqlDataReader loguear;
+            empresa.Usuario = "mmmm";// textBox1.Text;
+            empresa.Password = "mmmm";//textBox2.Text;
+            loguear = empresa.insert();
+            string dato = "";
+            while (loguear.Read())
+            {
+                dato = "" + loguear[0];
+            }
+
+            if (dato == "1")
+            {
+
+
+                MessageBox.Show("todo correcto");
+            }
+            else
+                MessageBox.Show("error...!!");
         }
     }
 }
