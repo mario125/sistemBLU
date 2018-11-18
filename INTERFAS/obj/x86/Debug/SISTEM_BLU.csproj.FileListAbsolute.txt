@@ -17,3 +17,22 @@ D:\GIT_HUB\sistemBLU\INTERFAS\bin\Debug\capaNegocio.pdb
 D:\GIT_HUB\sistemBLU\INTERFAS\obj\x86\Debug\SISTEM_BLU.csproj.CopyComplete
 D:\GIT_HUB\sistemBLU\INTERFAS\obj\x86\Debug\INTERFAS.exe
 D:\GIT_HUB\sistemBLU\INTERFAS\obj\x86\Debug\INTERFAS.pdb
+D:\GIT HUB\sistemBLU\INTERFAS\bin\Debug\INTERFAS.exe.config
+D:\GIT HUB\sistemBLU\INTERFAS\bin\Debug\INTERFAS.exe
+D:\GIT HUB\sistemBLU\INTERFAS\bin\Debug\INTERFAS.pdb
+D:\GIT HUB\sistemBLU\INTERFAS\bin\Debug\capaData.dll
+D:\GIT HUB\sistemBLU\INTERFAS\bin\Debug\capaNegocio.dll
+D:\GIT HUB\sistemBLU\INTERFAS\bin\Debug\IronPdf.dll
+D:\GIT HUB\sistemBLU\INTERFAS\bin\Debug\MaterialSkin.dll
+D:\GIT HUB\sistemBLU\INTERFAS\bin\Debug\Npgsql.dll
+D:\GIT HUB\sistemBLU\INTERFAS\bin\Debug\capaData.pdb
+D:\GIT HUB\sistemBLU\INTERFAS\bin\Debug\capaNegocio.pdb
+D:\GIT HUB\sistemBLU\INTERFAS\obj\x86\Debug\SISTEM_BLU.csprojAssemblyReference.cache
+D:\GIT HUB\sistemBLU\INTERFAS\obj\x86\Debug\INTERFAS.Dialog_Error.resources
+D:\GIT HUB\sistemBLU\INTERFAS\obj\x86\Debug\INTERFAS.LOGIN.resources
+D:\GIT HUB\sistemBLU\INTERFAS\obj\x86\Debug\INTERFAS.Properties.Resources.resources
+D:\GIT HUB\sistemBLU\INTERFAS\obj\x86\Debug\SISTEM_BLU.csproj.GenerateResource.cache
+D:\GIT HUB\sistemBLU\INTERFAS\obj\x86\Debug\SISTEM_BLU.csproj.CoreCompileInputs.cache
+D:\GIT HUB\sistemBLU\INTERFAS\obj\x86\Debug\SISTEM_BLU.csproj.CopyComplete
+D:\GIT HUB\sistemBLU\INTERFAS\obj\x86\Debug\INTERFAS.exe
+D:\GIT HUB\sistemBLU\INTERFAS\obj\x86\Debug\INTERFAS.pdb

@@ -25,3 +25,12 @@ D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.csproj.CoreCompi
 D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.csproj.CopyComplete
 D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.dll
 D:\GIT_HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.pdb
+D:\GIT HUB\sistemBLU\INTERFAS\capaNegocio\bin\Debug\capaNegocio.dll
+D:\GIT HUB\sistemBLU\INTERFAS\capaNegocio\bin\Debug\capaNegocio.pdb
+D:\GIT HUB\sistemBLU\INTERFAS\capaNegocio\bin\Debug\capaData.dll
+D:\GIT HUB\sistemBLU\INTERFAS\capaNegocio\bin\Debug\capaData.pdb
+D:\GIT HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.csprojAssemblyReference.cache
+D:\GIT HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.csproj.CoreCompileInputs.cache
+D:\GIT HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.csproj.CopyComplete
+D:\GIT HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.dll
+D:\GIT HUB\sistemBLU\INTERFAS\capaNegocio\obj\Debug\capaNegocio.pdb

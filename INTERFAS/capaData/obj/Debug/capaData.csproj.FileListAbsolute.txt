@@ -18,3 +18,10 @@ D:\GIT_HUB\sistemBLU\INTERFAS\capaData\obj\Debug\capaData.csproj.CoreCompileInpu
 D:\GIT_HUB\sistemBLU\INTERFAS\capaData\obj\Debug\capaData.csproj.CopyComplete
 D:\GIT_HUB\sistemBLU\INTERFAS\capaData\obj\Debug\capaData.dll
 D:\GIT_HUB\sistemBLU\INTERFAS\capaData\obj\Debug\capaData.pdb
+D:\GIT HUB\sistemBLU\INTERFAS\capaData\bin\Debug\capaData.dll
+D:\GIT HUB\sistemBLU\INTERFAS\capaData\bin\Debug\capaData.pdb
+D:\GIT HUB\sistemBLU\INTERFAS\capaData\obj\Debug\capaData.csproj.CoreCompileInputs.cache
+D:\GIT HUB\sistemBLU\INTERFAS\capaData\obj\Debug\capaData.csproj.CopyComplete
+D:\GIT HUB\sistemBLU\INTERFAS\capaData\obj\Debug\capaData.dll
+D:\GIT HUB\sistemBLU\INTERFAS\capaData\obj\Debug\capaData.pdb
+D:\GIT HUB\sistemBLU\INTERFAS\capaData\obj\Debug\capaData.csprojAssemblyReference.cache

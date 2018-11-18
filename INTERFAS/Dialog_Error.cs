@@ -40,8 +40,21 @@ namespace INTERFAS
         {
             // objLog = new ClassNLogin();
             NpgsqlDataReader loguear;
-            empresa.Usuario = "mmmm";// textBox1.Text;
-            empresa.Password = "mmmm";//textBox2.Text;
+            empresa.d_ruc = "primera";
+            empresa.d_empresa = "primera";
+            empresa.d_direccion = "primera";
+            string dat = "10/10/2018";
+            
+            DateTime d2 = Convert.ToDateTime(dat);
+            DateTime value = d2;
+            empresa.d_fecha = value;           
+            empresa.d_nombre_comercial = "primera";
+            empresa.d_tipo_contribuyente = "primera";
+            empresa.d_ubigeo = 101;
+            empresa.d_departamento = "primera";
+            empresa.d_provincia = "primera";
+            empresa.d_distrito = "primera";
+            empresa.d_tipo_documento = 1;
             loguear = empresa.insert();
             string dato = "";
             while (loguear.Read())
@@ -49,11 +62,11 @@ namespace INTERFAS
                 dato = "" + loguear[0];
             }
 
-            if (dato == "1")
+            if (dato != "")
             {
 
 
-                MessageBox.Show("todo correcto");
+                MessageBox.Show("todo correcto:"+dato);
             }
             else
                 MessageBox.Show("error...!!");
