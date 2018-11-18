@@ -43,8 +43,7 @@ namespace INTERFAS
             empresa.d_ruc = "primera";
             empresa.d_empresa = "primera";
             empresa.d_direccion = "primera";
-            string dat = "10/10/2018";
-            
+            string dat = "10/10/2018";            
             DateTime d2 = Convert.ToDateTime(dat);
             DateTime value = d2;
             empresa.d_fecha = value;           
