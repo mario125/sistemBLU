@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CD_Empresa.cs" />
+    <Compile Include="CD_Marca.cs" />
     <Compile Include="clasConexion.cs" />
     <Compile Include="classLogin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

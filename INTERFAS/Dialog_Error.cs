@@ -63,8 +63,6 @@ namespace INTERFAS
 
             if (dato != "")
             {
-
-
                 MessageBox.Show("todo correcto:"+dato);
             }
             else

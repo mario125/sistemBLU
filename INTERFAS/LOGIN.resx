@@ -123,7 +123,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="materialSingleLineTextField1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 235</value>
+    <value>49, 224</value>
   </data>
   <data name="materialSingleLineTextField1.Size" type="System.Drawing.Size, System.Drawing">
     <value>264, 23</value>
@@ -142,7 +142,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialSingleLineTextField1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -4350,7 +4350,7 @@
     <value>86, 64</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 146</value>
+    <value>197, 73</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -4368,7 +4368,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="materialSingleLineTextField2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -4392,7 +4392,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialSingleLineTextField2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="materialRaisedButton1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4422,7 +4422,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialRaisedButton1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
