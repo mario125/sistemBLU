@@ -7,7 +7,7 @@ namespace capaData
     class clasConexion
     {
         //private NpgsqlConnection Conexion = new NpgsqlConnection("Driver={PostgreSQL Unicode};Server=localhost;Port=5432;Database=BLU_SISTEM;UID=postgres;PWD=root;");
-        NpgsqlConnection Conexion = new NpgsqlConnection("Username=postgres; host=localhost; Port=5432; Database=mario125; Password=root;");
+        NpgsqlConnection Conexion = new NpgsqlConnection("Username=postgres; host=localhost; Port=5432; Database=blu; Password=root;");
 
         public NpgsqlConnection AbrirConexion()
         {

@@ -89,10 +89,10 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.materialSingleLineTextField1);
             this.Controls.Add(this.materialRaisedButton1);
             this.Controls.Add(this.materialSingleLineTextField2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.materialSingleLineTextField1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "LOGIN";

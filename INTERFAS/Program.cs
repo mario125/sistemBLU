@@ -15,7 +15,7 @@ namespace INTERFAS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dialog_Error ());
+            Application.Run(new LOGIN ());
         }
     }
 }
