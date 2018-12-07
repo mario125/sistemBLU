@@ -1,12 +1,24 @@
 
+
+
+
 import com.itextpdf.text.Document;
+import com.itextpdf.text.Image;
+import com.itextpdf.text.Phrase;
+import com.itextpdf.text.Rectangle;
+import com.itextpdf.text.pdf.PdfContentByte;
+import com.itextpdf.text.pdf.PdfPCell;
+import com.itextpdf.text.pdf.PdfPCellEvent;
+import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.tool.xml.XMLWorkerHelper;
 import java.io.ByteArrayInputStream;
 import java.io.File;
+
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.URL;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -66,32 +78,185 @@ public class NewJFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+ public class RoundRectangle implements PdfPCellEvent {
+        public void cellLayout(PdfPCell cell, Rectangle rect,
+                PdfContentByte[] canvas) {
+            PdfContentByte cb = canvas[PdfPTable.LINECANVAS];
+            cb.roundRectangle(
+                rect.getLeft() + 1.5f, rect.getBottom() + 1.5f, rect.getWidth() - 3,
+                rect.getHeight() - 3, 4);
+            cb.stroke();
+        }
 
+        
+        
+    }
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
-        try
-				{
-						StringBuilder htmlString = new StringBuilder();
-//                                                 String Dato= "mira que esto es maravilla";
+ Document document = new Document();
+
+    try {
+        OutputStream file = new FileOutputStream(new File("HTMLtoPDF125.pdf"));
+        PdfWriter writer = PdfWriter.getInstance(document, file);
+        document.open();
+
+        
+                           
+        StringBuilder htmlString = new StringBuilder();
+                                                 String Dato= "mira que esto es maravilla";
 //						htmlString.append(new String("<html><head><title>"+Dato+"</title><style type=\"text/css\">body,html{border:0px}h1,h2,h3,h4,h5,h6{font-family:Arial,Helvetica,sans-serif}body,p{font-family:\"verdana\",tahoma,arial,sans-serif}code{font-family:\"Courier New\",Courier,monospace}body{background-color:#FFE;font-family:\"verdana\",tahoma,arial,sans-serif}p{font-size:11px;font-family:\"verdana\",tahoma,arial,sans-serif;color:#040404;background-color:#FFE;margin-top:5px;margin-bottom:8px;margin-left:10px}h1{font-size:17px;color:#FFA500;margin-bottom:10px;background-color:#00E;padding-top:6px;padding-bottom:7px;padding-left:10px}h2{font-size:15px;color:#05A;margin-bottom:10px;margin-top:16px;background-color:#FC6;padding-top:0px;padding-bottom:2px;padding-left:10px}h3{font-size:15px;color:#600;margin-bottom:8px;margin-top:15px}h4{font-size:12px;color:black;margin-bottom:8px;margin-top:15px;margin-left:8px;font-style:normal}code{font-size:12px;margin-left:16px;padding-left:16px}hr{height:0px;noshade:true;border:1;width:100%}.pError{font-size:11px;font-family:\"verdana\",tahoma,arial,sans-serif;color:red;background-color:#FFE;margin-top:5px;margin-bottom:8px;margin-left:10px}.pSkipped_PrevTaskFailed{font-size:11px;font-family:\"verdana\",tahoma,arial,sans-serif;color:#FF9D8B;background-color:#FFE;margin-top:5px;margin-bottom:8px;margin-left:10px}.pSkipped_DateNotInRange{font-size:11px;font-family:\"verdana\",tahoma,arial,sans-serif;color:#00BFFF;background-color:#FFE;margin-top:5px;margin-bottom:8px;margin-left:10px}.pAbort{font-size:11px;font-family:\"verdana\",tahoma,arial,sans-serif;color:#FFA500;background-color:#FFE;margin-top:5px;margin-bottom:8px;margin-left:10px}.pNeutral{font-size:11px;font-family:\"verdana\",tahoma,arial,sans-serif;color:silver;background-color:#FFE;margin-top:5px;margin-bottom:8px;margin-left:10px}.pSummary{font-size:11px;font-family:\"verdana\",tahoma,arial,sans-serif;color:blue;background-color:#FFE;margin-top:0px;margin-bottom:2px;margin-left:10px}.tableHead{font-size:15px;font-weight:bold;color:#05A;margin-bottom:10px;margin-top:16px;background-color:#FC6;padding-top:0px;padding-bottom:2px}.tdPadding{padding-top:0px;padding-bottom:0px;padding-left:7px;padding-right:7px}.h2RowHead{background-color:#999;color:#eee;font-weight:bold}.tableContent{font-size:11px;font-weight:normal;color:black;margin-bottom:10px;margin-top:16px;background-color:#FC6;padding-top:0px;padding-bottom:2px}</style></head><body><table class=\"tableHead\" width=\"100%\"><tr><td align=\"left\" class=\"tdPadding\">Summary log</td></tr><tr class=\"tableContent\"><td align=\"left\" class=\"tdPadding\"><b>User's account name: </b>First.Last</td><td align=\"center\" class=\"tdPadding\"><b>Server: </b>someServer</td><td align=\"right\" class=\"tdPadding\"><b>Execution date: </b>22.01.2015 04:49:37:918</td></tr></table><table width=\"100%\"><tr><td class=\"h2RowHead\">Running Process for [22.01.2015]</td></tr></table><p><b><h4>MAIN</h4></b></p><hr /><p class=\"pError\">(1) Task: <i>StopOnFailure1</i> invoked at 22.01.2015 04:49:37:934 >> <b>FAILURE!</b> Task finished with return code: 13. Component: StopOnFailure1 timed out.</p> <br /><p>Record Statistics: Processed: 68680 | Filtered: 0 | Failed: 0 | Running time: 00:00:05</p><hr /><p class=\"pError\">(2) Task: <i>DataFlow1</i> invoked at 22.01.2015 04:49:43:254 >> <b>FAILURE!</b> Task finished with return code: 4. Failed to load Component from file \"C:docAPIAPI.txt\". Reason: Component now found.</p> <br /><p class=\"pError\">(3) Task: <i>DataFlow2</i> invoked at 22.01.2015 04:49:43:300 >> <b>FAILURE!</b> Reason: Current object state [Ready] doesn't allow to stop this component.</p> <br /><table width=\"100%\"><tr><td class=\"h2RowHead\">Process execution summary:</td></tr></table><p>Active Tasks: 3</p> <br /> Executed Tasks: 3<br /> Successful Tasks: 0<br /> Failed Tasks: 3<br /> Skipped Tasks based on calendar: 0<br /> Skipped Tasks based on result of previous Task: 0<br /> <b>Process completed successfully. Elapsed time: "+Dato+"</b></body></html>"));
 						
-						htmlString.append(new String("<html><body align='center' stryle='color:red'> This is HMTL to PDF conversion Example<table border='2' align='center'> "));
-                                                
-						htmlString.append(new String("<tr><td>JavaCodeGeeks</td><td><a href='examples.javacodegeeks.com'>JavaCodeGeeks</a> </td></tr>"));				
-						htmlString.append(new String("<tr> <td> Google Here </td> <td><a href='www.google.com'>Google</a> </td> </tr></table></body></html>"));
-										
-						OutputStream file = new FileOutputStream(new File("HTMLtoPDF125.pdf"));
-						Document document = new Document();
-						PdfWriter writer = PdfWriter.getInstance(document, file);
-						document.open();
+						htmlString.append(new String("<html><head><title>Summary log</title><style type=\"text/css\">body, html{border: 0px}h1, h2, h3, h4, h5, h6{font-family: Arial, Helvetica, sans-serif}body, p{font-family: \"verdana\", tahoma, arial, sans-serif}code{font-family: \"Courier New\", Courier, monospace}body{font-family: \"verdana\", tahoma, arial, sans-serif;}p{font-size: 11px; font-family: \"verdana\", tahoma, arial, sans-serif; color: #040404; background-color: #FFFFEE; margin-top: 5px; margin-bottom: 8px; margin-left: 10px;}h1{font-size: 17px; color: #FFA500; margin-bottom: 10px; background-color: #0000EE; padding-top:6px; padding-bottom:7px; padding-left:10px;}h2{font-size: 15px; color: #0055AA; margin-bottom: 10px; margin-top: 16px; background-color:#FFCC66; padding-top:0px; padding-bottom:2px; padding-left:10px;}h3{font-size: 15px; color: #660000; margin-bottom: 8px; margin-top: 15px;}h4{font-size: 12px; color: black; margin-bottom: 8px; margin-top: 15px; margin-left: 8px; font-style: normal;}code{font-size: 12px; margin-left: 16px; padding-left:16px}hr{height: 0px; noshade: true; border: 1; width: 100%;}/* FFCC66 FFEE99 */ .pError{font-size: 11px; font-family: \"verdana\", tahoma, arial, sans-serif; color: red; background-color: #FFFFEE; margin-top: 5px; margin-bottom: 8px; margin-left: 10px;}.pSkipped_PrevTaskFailed{/* Process Manager: Task skipped since previous task failed*/ font-size: 11px; font-family: \"verdana\", tahoma, arial, sans-serif; color: #FF9D8B; /*Light red shade color*/ background-color: #FFFFEE; margin-top: 5px; margin-bottom: 8px; margin-left: 10px;}.pSkipped_DateNotInRange{/* Process Manager: Task skipped since run date not in range*/ font-size: 11px; font-family: \"verdana\", tahoma, arial, sans-serif; color: #00BFFF; /*Light blue shade color*/ background-color: #FFFFEE; margin-top: 5px; margin-bottom: 8px; margin-left: 10px;}.pAbort{/* Process Manager: Task is aborted*/ font-size: 11px; font-family: \"verdana\", tahoma, arial, sans-serif; color: #FFA500; /*Orange color*/ background-color: #FFFFEE; margin-top: 5px; margin-bottom: 8px; margin-left: 10px;}.pNeutral{font-size: 11px; font-family: \"verdana\", tahoma, arial, sans-serif; color: silver; background-color: #FFFFEE; margin-top: 5px; margin-bottom: 8px; margin-left: 10px;}.pSummary{font-size: 11px; font-family: \"verdana\", tahoma, arial, sans-serif; color: blue; background-color: #FFFFEE; margin-top: 0px; margin-bottom: 2px; margin-left: 10px;}.tableHead{font-size: 15px; font-weight: bold; color: #0055AA; margin-bottom: 10px; margin-top: 16px; background-color:#FFCC66; padding-top:0px; padding-bottom:2px; border-radius: 5px; border: red 5px solid; /*padding-left:10px;*/}.tdPadding{padding-top:0px;padding-bottom:0px;padding-left:7px;padding-right:7px;}.h2RowHead{background-color: #999999; color: #eeeeee; font-weight: bold}.tableContent{font-size: 11px; font-weight: normal; color: black; margin-bottom: 10px; margin-top: 16px; background-color:#FFCC66; padding-top:0px; padding-bottom:2px; /* padding-left:10px; */}</style></head><body><table class=\"tableHead\" width=\"100%\"><tr><td align=\"left\" class=\"tdPadding\">Summary log</td></tr><tr class=\"tableContent\"> <td align=\"left\" class=\"tdPadding\"><b>User's account name: </b>First.Last</td><td align=\"center\" class=\"tdPadding\"><b>Server: </b>someServer</td><td align=\"right\" class=\"tdPadding\"><b>Execution date: </b>22.01.2015 04:49:37:918</td></tr></table> <table width=\"100%\"><tr><td class=\"h2RowHead\">Running Process for [22.01.2015] </td></tr></table><p><b><h4>MAIN</h4></b></p><hr/><p class=\"pError\">(1) Task: <i>StopOnFailure1</i> invoked at 22.01.2015 04:49:37:934 >> <b>FAILURE!</b> Task finished with return code: 13. Component: StopOnFailure1 timed out.</p><br/><p>Record Statistics: Processed: 68680 | Filtered: 0 | Failed: 0 | Running time: 00:00:05</p><hr/><p class=\"pError\">(2) Task: <i>DataFlow1</i> invoked at 22.01.2015 04:49:43:254 >> <b>FAILURE!</b> Task finished with return code: 4. Failed to load Component from file \"C:\\doc\\API\\API.txt\". Reason: Component now found.</p><br/><p class=\"pError\">(3) Task: <i>DataFlow2</i> invoked at 22.01.2015 04:49:43:300 >> <b>FAILURE!</b> Reason: Current object state [Ready] doesn't allow to stop this component.</p><br/><table width=\"100%\"><tr><td class=\"h2RowHead\">Process execution summary:</td></tr></table><p>Active Tasks: 3</p><br/>Executed Tasks: 3<br/>Successful Tasks: 0<br/>Failed Tasks: 3<br/>Skipped Tasks based on calendar: 0<br/>Skipped Tasks based on result of previous Task: 0<br/><b>Process completed successfully. Elapsed time: 5 seconds.</b></body></html>"));
+//                                                
+//						htmlString.append(new String("<tr><td>JavaCodeGeeks</td><td><a href='examples.javacodegeeks.com'>JavaCodeGeeks</a> </td></tr>"));				
+//						htmlString.append(new String("<tr> <td> Google Here </td> <td><a href='www.google.com'>Google</a> </td> </tr></table></body></html>"));
+//										
+//						
 						InputStream is = new ByteArrayInputStream(htmlString.toString().getBytes());
+                                                               Image image1 = Image.getInstance("img.jpg");
+                                         image1.setAbsolutePosition(10f, 670f);
+                                        document.add(image1); 
+                                        
+        
+        PdfPCell cell;
+        PdfPCellEvent roundRectangle = new RoundRectangle();
+        // outer table
+        PdfPTable outertable = new PdfPTable(1);
+        // inner table 1
+        PdfPTable innertable = new PdfPTable(5);
+        innertable.setWidths(new int[]{8, 12, 1, 4, 12});
+        // first row
+        // column 1
+        cell = new PdfPCell(new Phrase("Record Ref:"));
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // column 2
+        cell = new PdfPCell(new Phrase("GN Staff"));
+        cell.setPaddingLeft(2);
+        innertable.addCell(cell);
+        // column 3
+        cell = new PdfPCell();
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // column 4
+        cell = new PdfPCell(new Phrase("Date: "));
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // column 5
+        cell = new PdfPCell(new Phrase("30/4/2015"));
+        cell.setPaddingLeft(2);
+        innertable.addCell(cell);
+        // spacing
+        cell = new PdfPCell();
+        cell.setColspan(5);
+        cell.setFixedHeight(3);
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // second row
+        // column 1
+        cell = new PdfPCell(new Phrase("Hospital:"));
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // column 2
+        cell = new PdfPCell(new Phrase("Derby Royal"));
+        cell.setPaddingLeft(2);
+        innertable.addCell(cell);
+        // column 3
+        cell = new PdfPCell();
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // column 4
+        cell = new PdfPCell(new Phrase("Ward: "));
+        cell.setBorder(Rectangle.NO_BORDER);
+        cell.setPaddingLeft(5);
+        innertable.addCell(cell);
+        // column 5
+        cell = new PdfPCell(new Phrase("21"));
+        cell.setPaddingLeft(2);
+        innertable.addCell(cell);
+        // spacing
+        cell = new PdfPCell();
+        cell.setColspan(5);
+        cell.setFixedHeight(3);
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // first nested table
+        cell = new PdfPCell(innertable);
+        cell.setCellEvent(roundRectangle);
+        cell.setBorder(Rectangle.NO_BORDER);
+        cell.setPadding(8);
+        outertable.addCell(cell);
+        // inner table 2
+        innertable = new PdfPTable(4);
+        innertable.setWidths(new int[]{3, 17, 1, 16});
+        // first row
+        // column 1
+        cell = new PdfPCell();
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // column 2
+        cell = new PdfPCell(new Phrase("Name"));
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // column 3
+        cell = new PdfPCell();
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // column 4
+        cell = new PdfPCell(new Phrase("Signature: "));
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // spacing
+        cell = new PdfPCell();
+        cell.setColspan(4);
+        cell.setFixedHeight(3);
+        cell.setBorder(Rectangle.NO_BORDER);
+        innertable.addCell(cell);
+        // subsequent rows
+        for (int i = 1; i < 4; i++) {
+            // column 1
+            cell = new PdfPCell(new Phrase(String.format("%s:", i)));
+            cell.setBorder(Rectangle.NO_BORDER);
+            innertable.addCell(cell);
+            // column 2
+            cell = new PdfPCell();
+            innertable.addCell(cell);
+            // column 3
+            cell = new PdfPCell();
+            cell.setBorder(Rectangle.NO_BORDER);
+            innertable.addCell(cell);
+            // column 4
+            cell = new PdfPCell();
+            innertable.addCell(cell);
+            // spacing
+            cell = new PdfPCell();
+            cell.setColspan(4);
+            cell.setFixedHeight(3);
+            cell.setBorder(Rectangle.NO_BORDER);
+            innertable.addCell(cell);
+        }
+        // second nested table
+        cell = new PdfPCell(innertable);
+        cell.setCellEvent(roundRectangle);
+        cell.setBorder(Rectangle.NO_BORDER);
+        cell.setPadding(8);
+        outertable.addCell(cell);
+        // add the table
+        document.add(outertable);
 						XMLWorkerHelper.getInstance().parseXHtml(writer, document, is);
 						document.close();
 						file.close();
-				}
-				catch (Exception e)
-				{
-						e.printStackTrace();
-				}
+                     
+            
+        
+
+      
+        System.out.print("HECHO");
+    } catch(Exception e){
+      e.printStackTrace();
+    }
+
+
+       
         // TODO add your handling code here:
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
